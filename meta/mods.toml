@@ -1139,3 +1139,11 @@ categoria = "bibliotecas"
 planilha = ""
 classe = "modrinth"
 nota = "dependência de outro mod (fora da planilha)"
+
+[distanthorizons]
+nome = "Distant Horizons"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LGPL-3.0-only"
+nota = "só cliente: terreno distante em LOD; pede mais RAM (8 GB na instância)"
