@@ -1,0 +1,13 @@
+name = "Tensura:No Game No Life"
+filename = "tennogamenolife-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OjadiGSc/versions/BvmFOGEg/tennogamenolife-1.1.4.jar"
+hash-format = "sha512"
+hash = "5373c790de49aab9cfe307bd2a98e8fea3669ba2256e73455f5aaf445912e94dd23d719f34c00448364838a7cf9d96d038d53f2b768170b771e0b28a82ef3bf7"
+
+[update]
+[update.modrinth]
+mod-id = "OjadiGSc"
+version = "BvmFOGEg"

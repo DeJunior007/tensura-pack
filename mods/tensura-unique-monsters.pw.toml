@@ -1,0 +1,13 @@
+name = "Tensura: Unique Monsters"
+filename = "tensurauniquemonsters-neoforge-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hjdhmNBa/versions/yIJJqKhn/tensurauniquemonsters-neoforge-1.0.1.jar"
+hash-format = "sha512"
+hash = "d2e2f38c3545757aa0ecf98e6f11d646ef0fc3e71ec0a3acb65894cc2e81e8536bc7ce877a128c53d5ac00bdd6004a10d525d93f15a1ec9e15e2044cc84ba210"
+
+[update]
+[update.modrinth]
+mod-id = "hjdhmNBa"
+version = "yIJJqKhn"

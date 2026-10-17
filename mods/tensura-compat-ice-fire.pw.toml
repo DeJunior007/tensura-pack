@@ -1,0 +1,13 @@
+name = "Tensura Compat: Ice & Fire"
+filename = "tensura_iaf-neoforge-2.0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6uiVC9fs/versions/y3BgUwxR/tensura_iaf-neoforge-2.0.0.1.jar"
+hash-format = "sha512"
+hash = "10308a9923a4609da9ceae9d4dfb2336878cf91c4b4463994af11154795680d4faf5278fa5a3f93426bc14d8372486a9ddfb0557eb05c66fc451d9916f3a3133"
+
+[update]
+[update.modrinth]
+mod-id = "6uiVC9fs"
+version = "y3BgUwxR"

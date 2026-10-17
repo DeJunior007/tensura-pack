@@ -1,0 +1,8 @@
+scripts/
+tests/
+meta/
+dist/
+manual.toml
+FORA.md
+CHANGELOG.md
+README.md

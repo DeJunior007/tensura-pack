@@ -1,0 +1,13 @@
+name = "Ancient Structures"
+filename = "ancientstructures-neoforge-1.21.1-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gZp8ofn3/versions/y6lK8Sua/ancientstructures-neoforge-1.21.1-0.1.1.jar"
+hash-format = "sha512"
+hash = "ad54464cb96bdc354dd8e92de80124fe9f607619d0d403dfa5388281e5a9ec30b3bf31037880a91c9749839b8a50c52a6c0443a30488c92116f1c06df74c3f55"
+
+[update]
+[update.modrinth]
+mod-id = "gZp8ofn3"
+version = "y6lK8Sua"

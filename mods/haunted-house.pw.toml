@@ -1,0 +1,13 @@
+name = "Haunted House"
+filename = "haunted_house-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "df718476d431056caf253baeb9881c907f87c056"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6467437
+project-id = 1206657

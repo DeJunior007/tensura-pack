@@ -1,0 +1,887 @@
+{
+  "3dskinlayers": {
+    "licenca": "LicenseRef-tr7zw-Protective-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:08+00:00"
+  },
+  "abandoned-watchtowers": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:09+00:00"
+  },
+  "alexs-caves-unofficial-port": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:09+00:00"
+  },
+  "alltheleaks": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:48:12+00:00"
+  },
+  "ambientsounds": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:12+00:00"
+  },
+  "amendments": {
+    "licenca": "LicenseRef-Supplementaries-Team-License-1.1",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:13+00:00"
+  },
+  "ancient-structures": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:14+00:00"
+  },
+  "apotheosis": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:15+00:00"
+  },
+  "apothic-attributes": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:16+00:00"
+  },
+  "apothic-enchanting": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:17+00:00"
+  },
+  "apothic-spawners": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:18+00:00"
+  },
+  "appleskin": {
+    "licenca": "Unlicense",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:19+00:00"
+  },
+  "architectury-api": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:20+00:00"
+  },
+  "armor-of-the-ages": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:21+00:00"
+  },
+  "ars-elemental": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:48:23+00:00"
+  },
+  "ars-nouveau": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:23+00:00"
+  },
+  "artifacts": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:24+00:00"
+  },
+  "athena-ctm": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:25+00:00"
+  },
+  "ati-structures-fabricforge": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:27+00:00"
+  },
+  "auroras": {
+    "licenca": "BSD-2-Clause",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:28+00:00"
+  },
+  "badoptimizations": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:28+00:00"
+  },
+  "balm": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:29+00:00"
+  },
+  "blockui": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:48:30+00:00"
+  },
+  "bookshelf-lib": {
+    "licenca": "LGPL-2.1-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:31+00:00"
+  },
+  "bossesrise": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:33+00:00"
+  },
+  "carry-on": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:34+00:00"
+  },
+  "cataclysm-dimension": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:34+00:00"
+  },
+  "chipped": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:36+00:00"
+  },
+  "chloride": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:37+00:00"
+  },
+  "chunk-sending-forge-fabric": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:48:37+00:00"
+  },
+  "chunky": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:39+00:00"
+  },
+  "citadel-1.21.1-port": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:39+00:00"
+  },
+  "cloth-config": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:40+00:00"
+  },
+  "copycats": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:41+00:00"
+  },
+  "corgilib": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:43+00:00"
+  },
+  "crash-assistant": {
+    "licenca": "LicenseRef-LicenseRef-KostromDan-MML-1.1.3",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:43+00:00"
+  },
+  "create": {
+    "licenca": "LicenseRef-Create-Mod-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:44+00:00"
+  },
+  "create-confectionery": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:46+00:00"
+  },
+  "create-connected": {
+    "licenca": "AGPL-3.0-or-later",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:47+00:00"
+  },
+  "create-deco": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:48+00:00"
+  },
+  "create-ore-excavation": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:49+00:00"
+  },
+  "createaddition": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:50+00:00"
+  },
+  "creativecore": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:51+00:00"
+  },
+  "creeper-overhaul": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:52+00:00"
+  },
+  "cristel-lib": {
+    "licenca": "CC-BY-NC-ND-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:52+00:00"
+  },
+  "cull-leaves": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:53+00:00"
+  },
+  "cupboard": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:48:56+00:00"
+  },
+  "curios": {
+    "licenca": "LGPL-3.0-or-later",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:56+00:00"
+  },
+  "dark-doppelganger": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:57+00:00"
+  },
+  "darker-depths": {
+    "licenca": "CC-BY-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:58+00:00"
+  },
+  "dawn-of-time": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:48:59+00:00"
+  },
+  "deeper-oceans": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:00+00:00"
+  },
+  "desert-tombs": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:01+00:00"
+  },
+  "domum-ornamentum": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:03+00:00"
+  },
+  "dreamwoods": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:05+00:00"
+  },
+  "emi": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:06+00:00"
+  },
+  "enderscape": {
+    "licenca": "LicenseRef-Enderscape-Mod-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:07+00:00"
+  },
+  "entityculling": {
+    "licenca": "LicenseRef-tr7zw-Protective-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:07+00:00"
+  },
+  "explorers-compass": {
+    "licenca": "CC-BY-NC-SA-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:09+00:00"
+  },
+  "extreme_sound_muffler": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:10+00:00"
+  },
+  "fallen-gems-affixes": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:12+00:00"
+  },
+  "falling-leaves": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:12+00:00"
+  },
+  "farmers-delight": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:13+00:00"
+  },
+  "fast-async-world-save-forge-fabric": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:14+00:00"
+  },
+  "ferrite-core": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:15+00:00"
+  },
+  "fetzis-asian-decoration": {
+    "licenca": "LicenseRef-Custom-License---Fetzis-Mods",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:16+00:00"
+  },
+  "first-person-model": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:17+00:00"
+  },
+  "forest-ruins": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:18+00:00"
+  },
+  "formations": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:19+00:00"
+  },
+  "formations-overworld": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:20+00:00"
+  },
+  "ftb-chunks-forge": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:21+00:00"
+  },
+  "ftb-library-forge": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:23+00:00"
+  },
+  "ftb-teams-forge": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:23+00:00"
+  },
+  "ftb-ultimine-forge": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:24+00:00"
+  },
+  "fusion-connected-textures": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:25+00:00"
+  },
+  "fzzy-config": {
+    "licenca": "LicenseRef-TDL-M",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:26+00:00"
+  },
+  "gateways-to-eternity": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:27+00:00"
+  },
+  "geckolib": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:28+00:00"
+  },
+  "guard-villagers": {
+    "licenca": "LicenseRef-Custom",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:29+00:00"
+  },
+  "handcrafted": {
+    "licenca": "LicenseRef-Terrarium-Licence",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:30+00:00"
+  },
+  "haunted-house": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:32+00:00"
+  },
+  "hellish-trials": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:32+00:00"
+  },
+  "iceberg": {
+    "licenca": "CC-BY-NC-ND-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:33+00:00"
+  },
+  "immediatelyfast": {
+    "licenca": "LGPL-3.0-or-later",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:34+00:00"
+  },
+  "irons-jewelry": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:35+00:00"
+  },
+  "irons-lib": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:36+00:00"
+  },
+  "irons-spells-n-spellbooks": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:37+00:00"
+  },
+  "jade": {
+    "licenca": "CC-BY-NC-SA-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:38+00:00"
+  },
+  "jei": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:39+00:00"
+  },
+  "kotlin-for-forge": {
+    "licenca": "LGPL-2.1-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:41+00:00"
+  },
+  "l_enders-cataclysm": {
+    "licenca": "CC-BY-NC-ND-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:41+00:00"
+  },
+  "lionfish-api": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:42+00:00"
+  },
+  "lithium": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:43+00:00"
+  },
+  "lithostitched": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:44+00:00"
+  },
+  "lukis-crazy-chambers": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:46+00:00"
+  },
+  "macaws-bridges": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:47+00:00"
+  },
+  "macaws-doors": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:48+00:00"
+  },
+  "macaws-furniture": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:48+00:00"
+  },
+  "macaws-roofs": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:49+00:00"
+  },
+  "macaws-windows": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:50+00:00"
+  },
+  "malum": {
+    "licenca": "LGPL-3.0-or-later",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:52+00:00"
+  },
+  "manascore": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:52+00:00"
+  },
+  "mezzconfig": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:53+00:00"
+  },
+  "midnightlib": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:49:54+00:00"
+  },
+  "minecolonies": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:57+00:00"
+  },
+  "minecolonies-compatibility": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:49:59+00:00"
+  },
+  "minecolonies-tweaks": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:00+00:00"
+  },
+  "minecraft-comes-alive-reborn": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:00+00:00"
+  },
+  "modernfix": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:01+00:00"
+  },
+  "moogs-structure-lib": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:02+00:00"
+  },
+  "moogs-voyager-structures": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:03+00:00"
+  },
+  "moonlight": {
+    "licenca": "LicenseRef-LGPL-with-additional-dependency-clause",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:04+00:00"
+  },
+  "mouse-tweaks": {
+    "licenca": "BSD-3-Clause",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:05+00:00"
+  },
+  "mowzies-mobs": {
+    "licenca": "LicenseRef-Mowzies-Mobs-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:06+00:00"
+  },
+  "mss-moogs-soaring-structures": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:07+00:00"
+  },
+  "multi-piston": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:09+00:00"
+  },
+  "natures-compass": {
+    "licenca": "CC-BY-NC-SA-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:10+00:00"
+  },
+  "nether-depths-upgrade": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:10+00:00"
+  },
+  "noisiumed": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:11+00:00"
+  },
+  "not-enough-animations": {
+    "licenca": "LicenseRef-tr7zw-Protective-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:12+00:00"
+  },
+  "not-enough-trials": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:14+00:00"
+  },
+  "nullscape": {
+    "licenca": "LicenseRef-Stardust-Labs-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:15+00:00"
+  },
+  "oh-the-biomes-weve-gone": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:16+00:00"
+  },
+  "oh-the-trees-youll-grow": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:17+00:00"
+  },
+  "open-parties-and-claims": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:18+00:00"
+  },
+  "particle-core": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:18+00:00"
+  },
+  "patchouli": {
+    "licenca": "CC-BY-NC-SA-3.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:19+00:00"
+  },
+  "placebo": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:21+00:00"
+  },
+  "playeranimator": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:21+00:00"
+  },
+  "relics-mod": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:23+00:00"
+  },
+  "resourceful-config": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:23+00:00"
+  },
+  "resourceful-lib": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:24+00:00"
+  },
+  "servercore": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:26+00:00"
+  },
+  "shatterbyte-lib": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:27+00:00"
+  },
+  "simply-swords": {
+    "licenca": "LicenseRef-Custom",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:28+00:00"
+  },
+  "simply-tooltips": {
+    "licenca": "LicenseRef-Timefall-Development-License-1.2",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:29+00:00"
+  },
+  "smartbrainlib": {
+    "licenca": "MPL-2.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:29+00:00"
+  },
+  "sodium": {
+    "licenca": "LicenseRef-Polyform-Shield-1.0.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:30+00:00"
+  },
+  "sophisticated-backpacks": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:32+00:00"
+  },
+  "sophisticated-core": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:33+00:00"
+  },
+  "sound-physics-remastered": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:33+00:00"
+  },
+  "spark": {
+    "licenca": "GPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:35+00:00"
+  },
+  "structurize": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:38+00:00"
+  },
+  "stylecolonies": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:39+00:00"
+  },
+  "supplementaries": {
+    "licenca": "LicenseRef-Supplementaries-Team-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:39+00:00"
+  },
+  "tensura-ascensions": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:40+00:00"
+  },
+  "tensura-better-subordinates": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:41+00:00"
+  },
+  "tensura-boss-structure": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:43+00:00"
+  },
+  "tensura-compat-ftb": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:44+00:00"
+  },
+  "tensura-compat-ice-fire": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:45+00:00"
+  },
+  "tensura-compat-irons-spells-n-spellbooks": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:46+00:00"
+  },
+  "tensura-compat-open-parties-and-claims": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:47+00:00"
+  },
+  "tensura-gear-evolution": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:48+00:00"
+  },
+  "tensura-kumodesu": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:49+00:00"
+  },
+  "tensura-magic-growth": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:51+00:00"
+  },
+  "tensura-mobs": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:52+00:00"
+  },
+  "tensura-mysticism": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:53+00:00"
+  },
+  "tensura-not-enough-bosses": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:54+00:00"
+  },
+  "tensura-reincarnated": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:54+00:00"
+  },
+  "tensura-slimethrone-extras": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:56+00:00"
+  },
+  "tensura-starlight": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:57+00:00"
+  },
+  "tensura-unique-monsters": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:58+00:00"
+  },
+  "tensuraepscaling": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:50:59+00:00"
+  },
+  "tensuramoreskills": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:50:59+00:00"
+  },
+  "tensurano-game-no-life": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:01+00:00"
+  },
+  "terrablender": {
+    "licenca": "LGPL-3.0-only",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:01+00:00"
+  },
+  "terralith": {
+    "licenca": "LicenseRef-Stardust-Labs-License",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:02+00:00"
+  },
+  "that-time-i-got-reincarnated-as-a-slime-gui-pack": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:04+00:00"
+  },
+  "the-bumblezone": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:05+00:00"
+  },
+  "towns-and-towers": {
+    "licenca": "CC-BY-NC-SA-4.0",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:06+00:00"
+  },
+  "towntalk": {
+    "licenca": "",
+    "fonte": "cfwidget",
+    "consultadoEm": "2026-10-17T18:51:08+00:00"
+  },
+  "tr-addon": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:08+00:00"
+  },
+  "trimmed": {
+    "licenca": "MIT",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:09+00:00"
+  },
+  "twilight-treehouses": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:10+00:00"
+  },
+  "waystones": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:11+00:00"
+  },
+  "xaeros-world-map": {
+    "licenca": "LicenseRef-All-Rights-Reserved",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:12+00:00"
+  },
+  "yacl": {
+    "licenca": "LGPL-3.0-or-later",
+    "fonte": "modrinth",
+    "consultadoEm": "2026-10-17T18:51:13+00:00"
+  }
+}

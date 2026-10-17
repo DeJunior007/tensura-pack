@@ -1,0 +1,13 @@
+name = "That Time I Got Reincarnated as a Slime GUI Pack"
+filename = "TenSuraGUIPack-[1.21-1.21.11].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IDei5Bkh/versions/f6VTqSYh/TenSuraGUIPack-%5B1.21-1.21.11%5D.zip"
+hash-format = "sha512"
+hash = "1d3192fcc5d1c773f63d356f2b210502f1b3f5a1cff065e5a0c71f9fecbc3767c3e21da5408b4815dc81d175f213a063e17f2fe202b500ffad835ee1648b84ea"
+
+[update]
+[update.modrinth]
+mod-id = "IDei5Bkh"
+version = "f6VTqSYh"

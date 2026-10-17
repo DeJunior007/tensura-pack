@@ -1,0 +1,1141 @@
+[3dskinlayers]
+nome = "Skin Layers 3D"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[abandoned-watchtowers]
+nome = "Abandoned Watchtowers"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[alexs-caves-unofficial-port]
+nome = "Alex's Caves (Unofficial Port)"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[alltheleaks]
+nome = "AllTheLeaks (Memory Leak Fix)"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "A"
+licenca = "MIT"
+
+[ambientsounds]
+nome = "AmbientSounds 6"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[amendments]
+nome = "Amendments"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[ancient-structures]
+nome = "Ancient Structures: Cultural Buildings"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+nota = "no Modrinth o título é só \"Ancient Structures\""
+
+[apotheosis]
+nome = "Apotheosis"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[apothic-attributes]
+nome = "Apothic Attributes"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[apothic-enchanting]
+nome = "Apothic-Enchanting"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[apothic-spawners]
+nome = "Apothic-Spawners"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[appleskin]
+nome = "AppleSkin"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[architectury-api]
+nome = "Architectury API"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[armor-of-the-ages]
+nome = "Armor of the Ages"
+categoria = "outros"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[ars-elemental]
+nome = "Ars Elemental"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "A"
+licenca = "LGPL-3.0"
+
+[ars-nouveau]
+nome = "Ars Nouveau"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[artifacts]
+nome = "Artifacts"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[athena-ctm]
+nome = "Athena"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[ati-structures-fabricforge]
+nome = "ATi Structures"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[auroras]
+nome = "Auroras"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[badoptimizations]
+nome = "BadOptimizations"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[balm]
+nome = "Balm"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[blockui]
+nome = "BlockUI"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+licenca = "GPL-3.0"
+nota = "única versão 1.21.1 é beta/snapshot"
+
+[bookshelf-lib]
+nome = "Bookshelf"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[bossesrise]
+nome = "Bosses'Rise"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[carry-on]
+nome = "Carry On"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[cataclysm-dimension]
+nome = "Cataclysm Dimensions"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+nota = "no Modrinth o título é \"Cataclysm Dimension\""
+
+[chipped]
+nome = "Chipped"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[chloride]
+nome = "(Sodium) Chloride"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[chunk-sending-forge-fabric]
+nome = "Chunk Sending"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "B"
+licenca = "ARR"
+
+[chunky]
+nome = "Chunky"
+categoria = "performance"
+planilha = ""
+classe = "modrinth"
+nota = "pré-geração do mundo; só no servidor"
+
+["citadel-1.21.1-port"]
+nome = "Citadel (Unofficial Port)"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[cloth-config]
+nome = "Cloth Config API"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[copycats]
+nome = "Create: Copycats+"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+
+[corgilib]
+nome = "CorgiLib"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[crash-assistant]
+nome = "Crash Assistant"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[create]
+nome = "Create"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+nota = "obrigatório no cliente na prática (adiciona blocos e itens)"
+
+[create-confectionery]
+nome = "Create Confectionery"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+
+[create-connected]
+nome = "Create: Connected"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+
+[create-deco]
+nome = "Create Deco"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+
+[create-ore-excavation]
+nome = "Create Ore Excavation"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+
+[createaddition]
+nome = "Create Crafts & Additions"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+
+[creativecore]
+nome = "CreativeCore"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[creeper-overhaul]
+nome = "Creeper Overhaul"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[cristel-lib]
+nome = "Cristel Lib"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[cull-leaves]
+nome = "Cull Leaves"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[cupboard]
+nome = "Cupboard"
+categoria = "bibliotecas"
+planilha = ""
+classe = "B"
+nota = "dependência de outro mod (fora da planilha)"
+licenca = "ARR"
+
+[curios]
+nome = "Curios API"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[dark-doppelganger]
+nome = "Dark Doppelganger: Iron's Spells Addon"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[darker-depths]
+nome = "Darker Depths"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[dawn-of-time]
+nome = "Dawn of Time"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[deeper-oceans]
+nome = "Deeper Oceans"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[desert-tombs]
+nome = "Desert Tombs"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[domum-ornamentum]
+nome = "Domum Ornamentum"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+licenca = "GPL-3.0"
+nota = "única versão 1.21.1 é beta/snapshot"
+
+[dreamwoods]
+nome = "Dreamwoods"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "B"
+licenca = "ARR"
+
+[emi]
+nome = "EMI"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[enderscape]
+nome = "Enderscape"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[entityculling]
+nome = "Entity Culling"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[explorers-compass]
+nome = "Explorer's Compass"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[extreme_sound_muffler]
+nome = "Extreme sound muffler"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[fallen-gems-affixes]
+nome = "Fallen Gems & Affixes"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "A"
+licenca = "LGPL-2.1"
+nota = "única versão 1.21.1 é beta/snapshot"
+
+[falling-leaves]
+nome = "Falling Leaves"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[farmers-delight]
+nome = "Farmer's Delight"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[fast-async-world-save-forge-fabric]
+nome = "Fast Async World Save"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "B"
+licenca = "ARR"
+
+[ferrite-core]
+nome = "FerriteCore"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[fetzis-asian-decoration]
+nome = "Fetzi's Asian Decoration"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[first-person-model]
+nome = "First-person Model"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[forest-ruins]
+nome = "Forest Ruins"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[formations]
+nome = "Formations (Structure Library)"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[formations-overworld]
+nome = "Formations Overworld"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[ftb-chunks-forge]
+nome = "FTB Chunks"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "B"
+licenca = "ARR"
+
+[ftb-library-forge]
+nome = "FTB Library"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "B"
+licenca = "ARR"
+
+[ftb-teams-forge]
+nome = "FTB Teams"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "B"
+licenca = "ARR"
+
+[ftb-ultimine-forge]
+nome = "FTB Ultimine"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "B"
+licenca = "ARR"
+
+[fusion-connected-textures]
+nome = "Fusion (Connected Textures)"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[fzzy-config]
+nome = "Fzzy Config"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[gateways-to-eternity]
+nome = "Gateways to Eternity"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[geckolib]
+nome = "Geckolib"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+nota = "exigida por Mowzie's, Cataclysm, Iron's, Tensura etc. nos dois lados"
+
+[guard-villagers]
+nome = "Guard Villagers"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "modrinth"
+
+[handcrafted]
+nome = "Handcrafted"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[haunted-house]
+nome = "Haunted House"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "B"
+
+[hellish-trials]
+nome = "Nether Trials & Chambers"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "B"
+licenca = "ARR"
+
+[iceberg]
+nome = "Iceberg"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[immediatelyfast]
+nome = "ImmediatelyFast"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[irons-jewelry]
+nome = "Iron's Gems 'n Jewelry"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[irons-lib]
+nome = "Iron's Lib"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[irons-spells-n-spellbooks]
+nome = "Iron's Spells 'n Spellbooks"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[jade]
+nome = "Jade 🔍"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[jei]
+nome = "Just Enough Items (JEI)"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[kotlin-for-forge]
+nome = "Kotlin for Forge"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[l_enders-cataclysm]
+nome = "L_Ender's Cataclysm"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[lionfish-api]
+nome = "Lionfish-API"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[lithium]
+nome = "Lithium"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[lithostitched]
+nome = "Lithostitched"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[lukis-crazy-chambers]
+nome = "Luki's Crazy Chambers"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[macaws-bridges]
+nome = "Macaw's Bridges"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[macaws-doors]
+nome = "Macaw's Doors"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[macaws-furniture]
+nome = "Macaw's Furniture"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[macaws-roofs]
+nome = "Macaw's Roofs"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[macaws-windows]
+nome = "Macaw's Windows"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[malum]
+nome = "Malum"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[manascore]
+nome = "ManasCore"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[mezzconfig]
+nome = "MezzConfig"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[midnightlib]
+nome = "MidnightLib"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[minecolonies]
+nome = "MineColonies"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+licenca = "GPL-3.0"
+
+[minecolonies-compatibility]
+nome = "Compatibility addon for MineColonies"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+nota = "única versão 1.21.1 é beta/snapshot"
+licenca = "GPL-3.0"
+
+[minecolonies-tweaks]
+nome = "Tweaks addon for MineColonies"
+categoria = "colonias"
+planilha = ""
+classe = "A"
+nota = "dependência de outro mod (fora da planilha)"
+licenca = "GPL-3.0"
+
+[minecraft-comes-alive-reborn]
+nome = "MCA Reborn"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "modrinth"
+
+[modernfix]
+nome = "ModernFix"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[moogs-structure-lib]
+nome = "Moog's Structure Lib (moogs_structures)"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[moogs-voyager-structures]
+nome = "MVS - Moog's Voyager Structures"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[moonlight]
+nome = "Moonlight Lib"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[mouse-tweaks]
+nome = "Mouse Tweaks"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[mowzies-mobs]
+nome = "Mowzie's Mobs"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[mss-moogs-soaring-structures]
+nome = "Moog's Soaring Structures"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[multi-piston]
+nome = "Multi-Piston"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+licenca = "GPL-3.0"
+
+[natures-compass]
+nome = "Nature's Compass"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[nether-depths-upgrade]
+nome = "Nether Depths Upgrade"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[noisiumed]
+nome = "Noisiumed"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[not-enough-animations]
+nome = "Not Enough Animations"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[not-enough-trials]
+nome = "Not Enough Trials"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[nullscape]
+nome = "Nullscape"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[oh-the-biomes-weve-gone]
+nome = "Oh The Biomes We've Gone"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[oh-the-trees-youll-grow]
+nome = "Oh The Trees You'll Grow"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+nota = "biblioteca exigida pelo Oh The Biomes We've Gone (nos dois lados)"
+
+[open-parties-and-claims]
+nome = "Open Parties and Claims"
+categoria = "qol"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[particle-core]
+nome = "Particle Core"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[patchouli]
+nome = "Patchouli"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[placebo]
+nome = "Placebo"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[playeranimator]
+nome = "playerAnimator"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[relics-mod]
+nome = "Relics"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[resourceful-config]
+nome = "Resourceful Config"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[resourceful-lib]
+nome = "Resourceful Lib"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[servercore]
+nome = "ServerCore"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[shatterbyte-lib]
+nome = "ShatterLib | OctoLib"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[simply-swords]
+nome = "Simply Swords"
+categoria = "magia"
+planilha = "Magia / Combate / Chefes"
+classe = "modrinth"
+
+[simply-tooltips]
+nome = "Simply Tooltips"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[smallcolonies]
+nome = "SmallColonies for MineColonies"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "C"
+
+[smartbrainlib]
+nome = "SmartBrainLib"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+nota = "exigida como dependência por mods dos dois lados"
+
+[sodium]
+nome = "Sodium"
+categoria = "performance"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[sophisticated-backpacks]
+nome = "Sophisticated Backpacks"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[sophisticated-core]
+nome = "Sophisticated Core"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "modrinth"
+
+[sound-physics-remastered]
+nome = "Sound Physics Remastered"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+
+[spark]
+nome = "spark"
+categoria = "performance"
+planilha = "Desempenho"
+classe = "modrinth"
+
+[structurize]
+nome = "Structurize"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+licenca = "GPL-3.0"
+nota = "única versão 1.21.1 é beta/snapshot"
+
+[stylecolonies]
+nome = "Stylecolonies"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "B"
+licenca = "ARR"
+
+[supplementaries]
+nome = "Supplementaries"
+categoria = "construcao"
+planilha = "Construção / Decoração"
+classe = "modrinth"
+
+[tensura-ascensions]
+nome = "Tensura: Ascension"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "B"
+licenca = "ARR"
+nota = "ex-\"Simply Tensura Additions\""
+
+[tensura-better-subordinates]
+nome = "Tensura: Better Subordinates"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-boss-structure]
+nome = "TenSura boss structure"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "A"
+licenca = "MIT"
+
+[tensura-compat-ftb]
+nome = "Tensura Compat: FTB"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-compat-ice-fire]
+nome = "Tensura Compat: Ice & Fire"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-compat-irons-spells-n-spellbooks]
+nome = "Tensura Compat: Iron's Spells 'n Spellbooks"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-compat-open-parties-and-claims]
+nome = "Tensura Compat: Open Parties and Claims"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-gear-evolution]
+nome = "Tensura Gear Evolution"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "A"
+licenca = "MIT"
+
+[tensura-kumodesu]
+nome = "Tensura: KumoDesu"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-magic-growth]
+nome = "Tensura: Magic Growth"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "B"
+licenca = "ARR"
+
+[tensura-mobs]
+nome = "Tensura Mobs"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "B"
+
+[tensura-mortal-cultivation]
+nome = "Tensura: Mortal Cultivation"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "C"
+
+[tensura-mysticism]
+nome = "Tensura: Mysticism"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-not-enough-bosses]
+nome = "Tensura: Not Enough Bosses"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-reincarnated]
+nome = "Tensura: Reincarnated"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-slimethrone-extras]
+nome = "Tensura: SlimeThrone Extras"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-starlight]
+nome = "Tensura: Starlight"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensura-unique-monsters]
+nome = "Tensura: Unique Monsters"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensuraepscaling]
+nome = "Tensura EP Scaling"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[tensuramoreskills]
+nome = "TensuraMoreSkills"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "B"
+licenca = "ARR"
+
+[tensurano-game-no-life]
+nome = "Tensura:No Game No Life"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[terrablender]
+nome = "TerraBlender"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[terralith]
+nome = "Terralith"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[that-time-i-got-reincarnated-as-a-slime-gui-pack]
+nome = "That Time I Got Reincarnated as a Slime GUI Pack"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[the-bumblezone]
+nome = "The Bumblezone - NeoForge/Forge"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[towns-and-towers]
+nome = "Towns and Towers"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[towntalk]
+nome = "TownTalk"
+categoria = "colonias"
+planilha = ""
+classe = "B"
+nota = "dependência de outro mod (fora da planilha)"
+licenca = "ARR"
+
+[tr-addon]
+nome = "Tensura: Reincarnated Addon"
+categoria = "tensura"
+planilha = "Anime / Chefes / Magia"
+classe = "modrinth"
+
+[trimmed]
+nome = "Trimmed"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"
+
+[twilight-treehouses]
+nome = "Twilight Treehouses"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+
+[waystones]
+nome = "Waystones"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[xaeros-world-map]
+nome = "Xaero's World Map"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+
+[yacl]
+nome = "YetAnotherConfigLib (YACL)"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+nota = "dependência de outro mod (fora da planilha)"

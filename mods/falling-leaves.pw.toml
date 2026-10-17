@@ -1,0 +1,13 @@
+name = "Falling Leaves"
+filename = "Falling Leaves-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ALTwwcC5/versions/VbgSXj57/Falling%20Leaves-1.0.jar"
+hash-format = "sha512"
+hash = "30962ca6d61019eccf4b57ac438dd220efe455727c8e57c0a062a02ee6c4072df97699e917b5d0452d7ff14577c03e9fe987b4146e1226899e1cbc7ee469b0f2"
+
+[update]
+[update.modrinth]
+mod-id = "ALTwwcC5"
+version = "VbgSXj57"

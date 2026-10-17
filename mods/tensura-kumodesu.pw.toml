@@ -1,0 +1,13 @@
+name = "Tensura: KumoDesu"
+filename = "tensura_kumodesu-neoforge-2.0.3-1.21.1-HOTFIX2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HJKyXwfF/versions/2oKirX08/tensura_kumodesu-neoforge-2.0.3-1.21.1-HOTFIX2.jar"
+hash-format = "sha512"
+hash = "7af448962bf90eca55c413c013746a71557fa5d19d2bb417452ebd06b78fffd45369c55cc0b5f7fb93660cef44e5b4934a7376e882be0b4abaca29347afefc2f"
+
+[update]
+[update.modrinth]
+mod-id = "HJKyXwfF"
+version = "2oKirX08"

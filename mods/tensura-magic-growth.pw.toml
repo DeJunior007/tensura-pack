@@ -1,0 +1,13 @@
+name = "Tensura: Magic Growth"
+filename = "tensura_magic_growth-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ccc3043279a719cd62a52598f1bcb5c88fdf1dce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7920307
+project-id = 1504033

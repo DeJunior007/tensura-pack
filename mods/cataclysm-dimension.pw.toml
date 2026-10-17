@@ -1,0 +1,13 @@
+name = "Cataclysm Dimension"
+filename = "cataclysm_dimension-neoforge1.21.1-1.6.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JWCzrgCa/versions/aFMRSnrL/cataclysm_dimension-neoforge1.21.1-1.6.2.jar"
+hash-format = "sha512"
+hash = "a4ceacf07a8adde7fd9889336a70c2f1d5f740a43e1a6a9be41dbfc8f1c6cda616a8c5f8691b4930a9d2e57b34803e6720ebb217619d55ed910c981bd17e8cdc"
+
+[update]
+[update.modrinth]
+mod-id = "JWCzrgCa"
+version = "aFMRSnrL"

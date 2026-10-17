@@ -1,0 +1,13 @@
+name = "Tensura EP Scaling"
+filename = "TensuraEpScaling-neoforge-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9LFj5OCy/versions/UWOnSPc3/TensuraEpScaling-neoforge-1.2.0.jar"
+hash-format = "sha512"
+hash = "682ceb671546ac96e50b3653b6f3977254faf0a6001b6d6040e3d46b191cd76ac774aa9dac54d38c5216ff36c56e64152301030c7ce63122256f8a7e32a667de"
+
+[update]
+[update.modrinth]
+mod-id = "9LFj5OCy"
+version = "UWOnSPc3"

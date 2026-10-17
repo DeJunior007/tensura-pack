@@ -1,0 +1,16 @@
+# Só cliente (relatório, "Fora do servidor"): side = "client". Um id por linha.
+that-time-i-got-reincarnated-as-a-slime-gui-pack
+mouse-tweaks
+badoptimizations
+crash-assistant
+cull-leaves
+entityculling
+immediatelyfast
+chloride
+ambientsounds
+auroras
+falling-leaves
+first-person-model
+not-enough-animations
+particle-core
+3dskinlayers

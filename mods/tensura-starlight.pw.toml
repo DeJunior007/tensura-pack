@@ -1,0 +1,13 @@
+name = "Tensura: Starlight"
+filename = "trstarlight-0.1.2-BETA-SOURCEBLOOD-PART1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4VtAZzuq/versions/i3Q9rxnq/trstarlight-0.1.2-BETA-SOURCEBLOOD-PART1.jar"
+hash-format = "sha512"
+hash = "c47f43d728553cdaa017d9facf5d21d31906b05a5c1d850dbc2a522f1c4b3cef65dd859c832dec8ede8af702d8aba0126901d9175be5019aa248182e1a10085f"
+
+[update]
+[update.modrinth]
+mod-id = "4VtAZzuq"
+version = "i3Q9rxnq"

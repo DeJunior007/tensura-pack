@@ -1,0 +1,13 @@
+name = "Noisiumed"
+filename = "noisiumed-3.0.5-fabric-1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/M8MasaZG/versions/F4iw6WYi/noisiumed-3.0.5-fabric-1.21.1.jar"
+hash-format = "sha512"
+hash = "d62c7d82203385c4909ce1026f41ff51c513c17303474fb89176fe2122c5966abdeffdeeeab08140b1ec5bb5173d3ccf8804f6f48d7fcc78f100768c09ea03cb"
+
+[update]
+[update.modrinth]
+mod-id = "M8MasaZG"
+version = "F4iw6WYi"

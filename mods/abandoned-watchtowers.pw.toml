@@ -1,0 +1,13 @@
+name = "Abandoned Watchtowers"
+filename = "Abandoned Watchtowers 7.0.1 NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XaDXUYLc/versions/oI3gsYA4/Abandoned%20Watchtowers%207.0.1%20NeoForge%201.21.1.jar"
+hash-format = "sha512"
+hash = "612a8b574ea8ef6228ba30ab25d2d5de3815375e08764930be89dafda92b37f59783d475651dbf32151fe61c58d8e00dfc7cf795f3042d92e257bb7d10d10f7d"
+
+[update]
+[update.modrinth]
+mod-id = "XaDXUYLc"
+version = "oI3gsYA4"

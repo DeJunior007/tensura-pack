@@ -1,0 +1,181 @@
+# B: .pw.toml + item aqui (fora do .mrpack). C: só aqui (distribuição bloqueada).
+
+[[mod]]
+id = "chunk-sending-forge-fabric"
+nome = "Chunk Sending"
+classe = "B"
+lado = "server"
+arquivo = "chunksending-1.21-4.1.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/chunk-sending-forge-fabric/files/9051336"
+sha1 = "bb408feaf8f1e7b9f375475f87a4d96fe781af71"
+pasta = "mods"
+
+[[mod]]
+id = "cupboard"
+nome = "Cupboard"
+classe = "B"
+lado = "server"
+arquivo = "cupboard-1.21.1-4.2.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/cupboard/files/8889050"
+sha1 = "6c2d786a161f49470dad92b2edaefdac38a1e79b"
+pasta = "mods"
+
+[[mod]]
+id = "dreamwoods"
+nome = "Dreamwoods"
+classe = "B"
+lado = "both"
+arquivo = "dreamwoods-2.5-neoforge-1.21.1.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/dreamwoods/files/8768209"
+sha1 = "02c61a0b1468389d496a0cb89a184fc94e7dd290"
+pasta = "mods"
+
+[[mod]]
+id = "fast-async-world-save-forge-fabric"
+nome = "Fast Async World Save"
+classe = "B"
+lado = "server"
+arquivo = "fastasyncworldsave-1.21-2.6.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/fast-async-world-save-forge-fabric/files/6935204"
+sha1 = "87e019715314631f2c8288cf7c73a52a61b2d61b"
+pasta = "mods"
+
+[[mod]]
+id = "ftb-chunks-forge"
+nome = "FTB Chunks"
+classe = "B"
+lado = "both"
+arquivo = "ftb-chunks-neoforge-2101.1.22.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge/files/8791113"
+sha1 = "a53f1bb7965c6954a348d4f321f03d3971ad503f"
+pasta = "mods"
+
+[[mod]]
+id = "ftb-library-forge"
+nome = "FTB Library"
+classe = "B"
+lado = "both"
+arquivo = "ftb-library-neoforge-2101.1.37.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/9008089"
+sha1 = "b6e503587afcd678ec257e4abdc6362ff18c2fef"
+pasta = "mods"
+
+[[mod]]
+id = "ftb-teams-forge"
+nome = "FTB Teams"
+classe = "B"
+lado = "both"
+arquivo = "ftb-teams-neoforge-2101.1.11.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/8724782"
+sha1 = "62b65f752d0326edd13244e58d5f2aec035da4e9"
+pasta = "mods"
+
+[[mod]]
+id = "ftb-ultimine-forge"
+nome = "FTB Ultimine"
+classe = "B"
+lado = "both"
+arquivo = "ftb-ultimine-neoforge-2101.1.15.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge/files/8231400"
+sha1 = "c96a7cc0b52bf919660ea61c1536cebd9d5773b3"
+pasta = "mods"
+
+[[mod]]
+id = "haunted-house"
+nome = "Haunted House"
+classe = "B"
+lado = "both"
+arquivo = "haunted_house-1.0.1-neoforge-1.21.1.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/haunted-house/files/6467437"
+sha1 = "df718476d431056caf253baeb9881c907f87c056"
+pasta = "mods"
+
+[[mod]]
+id = "hellish-trials"
+nome = "Nether Trials & Chambers"
+classe = "B"
+lado = "server"
+arquivo = "HellishTrials-neoforge-1.0.5.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/hellish-trials/files/7445277"
+sha1 = "0c03bf04e99b3e8a310c9f5b6f3e7613e3b69528"
+pasta = "mods"
+
+[[mod]]
+id = "stylecolonies"
+nome = "Stylecolonies"
+classe = "B"
+lado = "both"
+arquivo = "stylecolonies-1.15.64-1.21.1.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/stylecolonies/files/9173039"
+sha1 = "dda6347f569215aa5400d352c490f6fac1d02618"
+pasta = "mods"
+
+[[mod]]
+id = "tensura-ascensions"
+nome = "Tensura: Ascension"
+classe = "B"
+lado = "both"
+arquivo = "ascension-3.0.0.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/tensura-ascensions/files/9217518"
+sha1 = "faa4eb160ed0320ff29162351c4a1ed58bc77ffb"
+pasta = "mods"
+
+[[mod]]
+id = "tensura-magic-growth"
+nome = "Tensura: Magic Growth"
+classe = "B"
+lado = "both"
+arquivo = "tensura_magic_growth-1.0.6.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/tensura-magic-growth/files/7920307"
+sha1 = "ccc3043279a719cd62a52598f1bcb5c88fdf1dce"
+pasta = "mods"
+
+[[mod]]
+id = "tensura-mobs"
+nome = "Tensura Mobs"
+classe = "B"
+lado = "both"
+arquivo = "slimes_mobs-1.0.0-neoforge-1.21.1.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/tensura-mobs/files/7304264"
+sha1 = "f42b6a58f879a2042403a6921c383cef740d4a65"
+pasta = "mods"
+
+[[mod]]
+id = "tensuramoreskills"
+nome = "TensuraMoreSkills"
+classe = "B"
+lado = "both"
+arquivo = "tensuramoreskills-0.0.4.9.3.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/tensuramoreskills/files/9097835"
+sha1 = "5bbeb8664a2eb895a7ef642877c75113e8c8eb91"
+pasta = "mods"
+
+[[mod]]
+id = "towntalk"
+nome = "TownTalk"
+classe = "B"
+lado = "both"
+arquivo = "towntalk-1.2.0.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/towntalk/files/5653504"
+sha1 = "6866d898938bdde1a17fadee16983c0c6071eac6"
+pasta = "mods"
+
+[[mod]]
+id = "tensura-mortal-cultivation"
+nome = "Tensura: Mortal Cultivation"
+classe = "C"
+lado = "both"
+arquivo = "mortal_cultivation-1.0.5.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/tensura-mortal-cultivation/files/9048646"
+sha1 = "e6582cd83d848747e81e7c8ee3a96f3000a6f39d"
+pasta = "mods"
+
+[[mod]]
+id = "smallcolonies"
+nome = "SmallColonies for MineColonies"
+classe = "C"
+lado = "both"
+arquivo = "smallcolonies 1.21.1 v1.8.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/smallcolonies/files/7881682"
+sha1 = "42ec80306cdb989a02156a8fcbc59cefc8a2c6d5"
+pasta = "mods"

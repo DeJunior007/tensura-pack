@@ -1,0 +1,13 @@
+name = "Tensura: Reincarnated Addon"
+filename = "traddon-neoforge-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qtL9D2UT/versions/XWqOM3lP/traddon-neoforge-2.0.1.jar"
+hash-format = "sha512"
+hash = "7191604e115d31c5f352e8970154253bd2407f6a50d30f6ca8fd7ed7d0d55f87c06c35fab19f46a12727d95f4ff1202859e28832317b7c8c7e1efa4e46be7bad"
+
+[update]
+[update.modrinth]
+mod-id = "qtL9D2UT"
+version = "XWqOM3lP"

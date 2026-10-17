@@ -1,0 +1,13 @@
+name = "Tensura Compat: Open Parties and Claims"
+filename = "tensura_opac-neoforge-2.0.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ob9RbeF/versions/TmdF77lO/tensura_opac-neoforge-2.0.0.0.jar"
+hash-format = "sha512"
+hash = "b88bc69482acd0acb5980bd69077026e52ccc0c0301c162645ecb749226e2d7069f8341790eb0f10e66a97d52a6ae3f7b68ad10c3da63587b9d3e6d8b574651b"
+
+[update]
+[update.modrinth]
+mod-id = "8ob9RbeF"
+version = "TmdF77lO"

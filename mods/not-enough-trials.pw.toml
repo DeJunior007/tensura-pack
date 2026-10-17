@@ -1,0 +1,13 @@
+name = "Not Enough Trials"
+filename = "NotEnoughTrials-1.21-v6.0-FabricForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1W5PhsYU/versions/bgM4iDKA/NotEnoughTrials-1.21-v6.0-FabricForge.jar"
+hash-format = "sha512"
+hash = "58d97dad4c86f8cbb6d86ed7ccc10c9a462b0fcb96dc4f2cb6a5708ee74535444e718654bc78b909329e22eb7fc0285ad0f7665febc4528940812f3428ce9740"
+
+[update]
+[update.modrinth]
+mod-id = "1W5PhsYU"
+version = "bgM4iDKA"

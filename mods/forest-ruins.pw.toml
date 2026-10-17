@@ -1,0 +1,13 @@
+name = "Forest Ruins"
+filename = "forest_ruins-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HgZn3gGU/versions/QmCe1Fcg/forest_ruins-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "ea25766b38b8ed6f580c7738e466c8ac34953f578ab42e6ad1e9bd6a11ef1ab7de7f65c5b015e1460628ab5975b712df4ac23a3d54d503d4f4ac8932caca5e7d"
+
+[update]
+[update.modrinth]
+mod-id = "HgZn3gGU"
+version = "QmCe1Fcg"

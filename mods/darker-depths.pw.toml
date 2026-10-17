@@ -1,0 +1,13 @@
+name = "Darker Depths"
+filename = "darkerdepths-2.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wCbFXJKH/versions/yzhGIe6b/darkerdepths-2.1.6.jar"
+hash-format = "sha512"
+hash = "cb9aca36142d3baa1ec948fef4596a31a9324b4bf83e000c3d2b72ba5da98533e04fdb5fe2f2fecbe6063583a0a3b4b99b1b9a673b52e537c5b703e46f2c6db4"
+
+[update]
+[update.modrinth]
+mod-id = "wCbFXJKH"
+version = "yzhGIe6b"

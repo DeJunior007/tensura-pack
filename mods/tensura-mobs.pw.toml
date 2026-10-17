@@ -1,0 +1,13 @@
+name = "Tensura Mobs"
+filename = "slimes_mobs-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f42b6a58f879a2042403a6921c383cef740d4a65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7304264
+project-id = 1399697
