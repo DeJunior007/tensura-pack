@@ -1,7 +1,5 @@
 # Changelog
 
-## v0.1.0 — 2026-10-17
-
 - + 149 mods da planilha "Testes de Mods" (150 linhas − 1 em `FORA.md`; lista completa em `meta/mods.toml`)
 - − Create: Steam 'n' Rails (sem 1.21.1 NeoForge, ver `FORA.md`)
 - + Chunky (pré-geração, só servidor; R4.4)
