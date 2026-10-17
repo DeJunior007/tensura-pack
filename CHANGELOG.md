@@ -1,5 +1,8 @@
 # Changelog
 
+- + IceAndFire Community Edition 2.0-beta.15 (+ Uranus, Jupiter) e FTB Quests: exigidos pelos Tensura Compat de Ice & Fire e FTB
+- + Atlas Api, Additional Attributes, Lodestone, Entropy Lib, YUNG's API (dependências que faltavam; achadas no teste local do servidor)
+- ~ Noisiumed e Not Enough Trials: build NeoForge (o add tinha pego Fabric/Forge)
 - + Distant Horizons (só cliente; enxergar longe com LOD)
 - + 149 mods da planilha "Testes de Mods" (150 linhas − 1 em `FORA.md`; lista completa em `meta/mods.toml`)
 - − Create: Steam 'n' Rails (sem 1.21.1 NeoForge, ver `FORA.md`)

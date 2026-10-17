@@ -179,3 +179,13 @@ arquivo = "smallcolonies 1.21.1 v1.8.jar"
 pagina = "https://www.curseforge.com/minecraft/mc-mods/smallcolonies/files/7881682"
 sha1 = "42ec80306cdb989a02156a8fcbc59cefc8a2c6d5"
 pasta = "mods"
+
+[[mod]]
+id = "ftb-quests-forge"
+nome = "FTB Quests (NeoForge)"
+classe = "B"
+lado = "both"
+arquivo = "ftb-quests-neoforge-2101.1.36.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-quests/files/8885017"
+sha1 = "b2ede29b98a3022c22065fbe9b1761e385a28683"
+pasta = "mods"

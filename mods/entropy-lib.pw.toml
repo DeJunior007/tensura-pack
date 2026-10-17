@@ -1,0 +1,13 @@
+name = "Entropy Lib/Cosmic Entropy"
+filename = "cosmicentropy-neoforge-1.21.1-0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6096c4dcabffb145998836063fe02286e26c40a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8983809
+project-id = 1713298

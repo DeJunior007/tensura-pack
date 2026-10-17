@@ -11,6 +11,11 @@ hash = "1a08446fa00d1bc24dd75f43cc5dfdd90cb5a5fb7622841c5b7de7425104d782"
 metafile = true
 
 [[files]]
+file = "mods/additional-attributes.pw.toml"
+hash = "c4fd790dac0603d194055a4781634fc51898e8f7f1e49346fc85deaa26560c9f"
+metafile = true
+
+[[files]]
 file = "mods/alexs-caves-unofficial-port.pw.toml"
 hash = "e3ea6c1ae49cfdb68008b673687d013a8b75d53fc2cc66ba2d1677dc51b929b0"
 metafile = true
@@ -93,6 +98,11 @@ metafile = true
 [[files]]
 file = "mods/ati-structures-fabricforge.pw.toml"
 hash = "489f70d4d99d9746b3fe825560175a809e6aa016422a4140bc31fac9b2101bfc"
+metafile = true
+
+[[files]]
+file = "mods/atlas-api.pw.toml"
+hash = "4d611e688a4c09c69c90b5070e54e9dc13510d26e156b8bd12907ccd10048537"
 metafile = true
 
 [[files]]
@@ -296,6 +306,11 @@ hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
 metafile = true
 
 [[files]]
+file = "mods/entropy-lib.pw.toml"
+hash = "bf2c97d2739f7446cd5e843d414e148d194458e3ebe892af3e3f44859bb4268e"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
@@ -366,6 +381,11 @@ hash = "19d86081a1c7654a91f437d85ea34af4e3f2b899c8e0e50d48a04ca97babf7b4"
 metafile = true
 
 [[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "93330f6ec85532067df176c6baee0e0f6d685c78088b1a2217726f6421899148"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
 metafile = true
@@ -416,6 +436,11 @@ hash = "fbee279e981c979b342bfb437f3cd8fc957b6c250dcf9961b86e16a159f0c6c4"
 metafile = true
 
 [[files]]
+file = "mods/iceandfire-ce.pw.toml"
+hash = "3bf33cdda984b2275588cd1b3e0723e3ba2cc817db33d88ffa00c92063a23aa7"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "a2fbecad69fcbff54919864ea8b95e54d140a1a2c637d73307fb366e76066fe6"
 metafile = true
@@ -451,6 +476,11 @@ hash = "58333a1b7c35bd5940e63b498cf44da16b1f2464c73d72203d1fed84ccfd352a"
 metafile = true
 
 [[files]]
+file = "mods/jupiter.pw.toml"
+hash = "3f44721c554a06b9e922c6102bed6402fed57d6d340de0299ee4237544724c48"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
@@ -473,6 +503,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
+metafile = true
+
+[[files]]
+file = "mods/lodestonelib.pw.toml"
+hash = "f5d0701055478e980b50849f199f266e6ab1940277a17ad2e5060df0d978be83"
 metafile = true
 
 [[files]]
@@ -597,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisiumed.pw.toml"
-hash = "d43c8efb152ef11a6fb75d9c6c95d5cc21166ccb083b96c11456b1059a21a861"
+hash = "9be02933f7ad53859be09828182fbd1ef9002445f05a748d7e8274ef14e480c2"
 metafile = true
 
 [[files]]
@@ -607,7 +642,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-trials.pw.toml"
-hash = "26e9ad08c619188468f062786b8b9b20aa00e0501f43e942dd6c2b59414b82d6"
+hash = "dd5f609b21c44691e9dcd1a072223e2cd0990b9f07ec80b37516640bfe6426c5"
 metafile = true
 
 [[files]]
@@ -871,6 +906,11 @@ hash = "3b346c4a05f56c5af8e41e02ae1512fbbe6418b27270fd850cfff2fd583dcb1c"
 metafile = true
 
 [[files]]
+file = "mods/uranus.pw.toml"
+hash = "c16ee91eeb20999c83deedbf93ce3787bb9bfefad56abd242d90a94dc0534ca0"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "2dad5577c5ec5e73bb3d5cec8da606e3b72e384207c9291a25e1ae96fd20bb70"
 metafile = true
@@ -883,6 +923,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
 metafile = true
 
 [[files]]

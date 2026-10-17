@@ -1,0 +1,13 @@
+name = "Additional Attributes"
+filename = "additional_attributes-1.21.1-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z7dzpcw6/versions/ZQ340JcB/additional_attributes-1.21.1-1.2.2.jar"
+hash-format = "sha512"
+hash = "3a9482f7ac6376f46a3e002810533df67c5055b0e603cbf053fc0cbd8ff28271eaafa6461dbf0a3452c51a09ba393fc3a25242a849cd2e2c176a4b23c594760c"
+
+[update]
+[update.modrinth]
+mod-id = "z7dzpcw6"
+version = "ZQ340JcB"

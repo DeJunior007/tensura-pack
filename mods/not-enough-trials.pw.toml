@@ -1,13 +1,13 @@
 name = "Not Enough Trials"
-filename = "NotEnoughTrials-1.21-v6.0-FabricForge.jar"
+filename = "NotEnoughTrials-1.21-v6.4-Neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1W5PhsYU/versions/bgM4iDKA/NotEnoughTrials-1.21-v6.0-FabricForge.jar"
+url = "https://cdn.modrinth.com/data/1W5PhsYU/versions/8k3cwiQv/NotEnoughTrials-1.21-v6.4-Neoforge.jar"
 hash-format = "sha512"
-hash = "58d97dad4c86f8cbb6d86ed7ccc10c9a462b0fcb96dc4f2cb6a5708ee74535444e718654bc78b909329e22eb7fc0285ad0f7665febc4528940812f3428ce9740"
+hash = "227b9805fcbd0fdd0f320c762acdaacf20378a18b29e163178bf3f7d7a5288a27bd9f2988dd30c33ed65cede81dac4b1882da177c32f00fa87f01050dffc76a0"
 
 [update]
 [update.modrinth]
 mod-id = "1W5PhsYU"
-version = "bgM4iDKA"
+version = "8k3cwiQv"

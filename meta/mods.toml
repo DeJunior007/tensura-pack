@@ -1147,3 +1147,75 @@ planilha = "Imersão / Visual"
 classe = "modrinth"
 licenca = "LGPL-3.0-only"
 nota = "só cliente: terreno distante em LOD; pede mais RAM (8 GB na instância)"
+
+[atlas-api]
+nome = "Atlas Api"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+licenca = "LicenseRef-All-Rights-Reserved"
+nota = "dependência do Iron's Jewelry"
+
+[additional-attributes]
+nome = "Additional Attributes"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+licenca = "MIT"
+nota = "dependência do Fallen Gems & Affixes"
+
+[lodestonelib]
+nome = "Lodestone"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+licenca = "LGPL-3.0-only"
+nota = "dependência do Malum"
+
+[entropy-lib]
+nome = "Entropy Lib/Cosmic Entropy"
+categoria = "bibliotecas"
+planilha = ""
+classe = "A"
+licenca = "MIT"
+nota = "dependência do TensuraMoreSkills"
+
+[yungs-api]
+nome = "YUNG's API"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+licenca = "LGPL-3.0-only"
+nota = "dependência do Not Enough Trials"
+
+[iceandfire-ce]
+nome = "IceAndFire Community Edition"
+categoria = "magia"
+planilha = ""
+classe = "modrinth"
+licenca = "LGPL-3.0-or-later"
+nota = "fixado na 2.0-beta.15: o Tensura Compat: Ice & Fire 2.0.0.1 quebra nas versões mais novas"
+
+[uranus]
+nome = "Uranus"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+licenca = "LGPL-3.0-or-later"
+nota = "dependência do Ice and Fire CE"
+
+[jupiter]
+nome = "Jupiter"
+categoria = "bibliotecas"
+planilha = ""
+classe = "modrinth"
+licenca = "LGPL-3.0-or-later"
+nota = "dependência do Ice and Fire CE"
+
+[ftb-quests-forge]
+nome = "FTB Quests (NeoForge)"
+categoria = "qol"
+planilha = ""
+classe = "B"
+licenca = "LicenseRef-All-Rights-Reserved"
+nota = "exigido pelo Tensura Compat: FTB"
