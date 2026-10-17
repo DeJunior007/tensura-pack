@@ -77,7 +77,7 @@ def test_server_overrides_fica_fora(pack, tmp_path):
 
 def test_leia_me(gerado):
     _, _, leia, _, _ = gerado
-    assert "NeoForge 21.1.222" in leia and "1.21.1" in leia
+    assert "NeoForge 21.1.262" in leia and "1.21.1" in leia
     assert "- Xaero's World Map — https://modrinth.com/mod/xaeros-world-map (pasta: mods)" in leia
     assert "- FTB Library — https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/5999999" in leia
     assert "- FTB Teams — https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/5888888" in leia

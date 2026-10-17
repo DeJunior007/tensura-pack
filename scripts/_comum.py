@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 PACK_DIR = Path(__file__).resolve().parents[1]
-MC, NEOFORGE = "1.21.1", "21.1.222"
+MC, NEOFORGE = "1.21.1", "21.1.262"
 
 # §2.6 — redistribuição permitida (SPDX, sem diferenciar -only/-or-later)
 LICENCAS_ABERTAS: frozenset[str] = frozenset(

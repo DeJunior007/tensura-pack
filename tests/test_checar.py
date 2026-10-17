@@ -70,11 +70,11 @@ def _c_com_pwtoml(p):
 
 
 def _versoes(p):
-    _troca(p / "pack.toml", 'neoforge = "21.1.222"', 'neoforge = "21.1.200"')
+    _troca(p / "pack.toml", 'neoforge = "21.1.262"', 'neoforge = "21.1.200"')
 
 
 def _versoes_extra(p):
-    _troca(p / "pack.toml", 'neoforge = "21.1.222"', 'neoforge = "21.1.222"\nfabric = "0.16.0"')
+    _troca(p / "pack.toml", 'neoforge = "21.1.262"', 'neoforge = "21.1.262"\nfabric = "0.16.0"')
 
 
 @pytest.mark.parametrize(

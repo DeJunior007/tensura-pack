@@ -2,7 +2,7 @@
 
     verificar_mrpack.py ARQ.mrpack [--pack DIR]
 
-- `dependencies` = {minecraft: 1.21.1, neoforge: 21.1.222}; `versionId` = versão do pack.toml;
+- `dependencies` = {minecraft: 1.21.1, neoforge: 21.1.262}; `versionId` = versão do pack.toml;
 - nenhum arquivo de classe B/C (por nome ou sha1) em `files` nem em `overrides/`,
   `client-overrides/`, `server-overrides/`;
 - mod Modrinth `client` com `env.server = "unsupported"`, `server` com `env.client = "unsupported"`,

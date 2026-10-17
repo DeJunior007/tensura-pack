@@ -99,7 +99,7 @@ def montar_mrpack(
         "game": "minecraft",
         "versionId": versao,
         "name": "Tensura SMP",
-        "dependencies": {"minecraft": "1.21.1", "neoforge": "21.1.222"},
+        "dependencies": {"minecraft": "1.21.1", "neoforge": "21.1.262"},
         "files": arquivos,
     }
     if mexer_indice:

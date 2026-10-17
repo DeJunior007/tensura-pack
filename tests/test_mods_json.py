@@ -23,7 +23,7 @@ def test_schema_exato(pack):
     doc, _ = mods_json.gerar(pack, AGORA)
     assert list(doc) == ["schema", "versao", "minecraft", "neoforge", "geradoEm", "total", "mods"]
     assert doc["schema"] == 1 and doc["versao"] == "0.3.9"
-    assert (doc["minecraft"], doc["neoforge"]) == ("1.21.1", "21.1.222")
+    assert (doc["minecraft"], doc["neoforge"]) == ("1.21.1", "21.1.262")
     assert doc["geradoEm"] == "2026-10-20T15:00:00Z"
     assert doc["total"] == len(doc["mods"]) == 9  # 8 .pw.toml + ftb-teams (C)
     for m in doc["mods"]:

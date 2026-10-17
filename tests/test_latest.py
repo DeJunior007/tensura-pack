@@ -40,7 +40,7 @@ def test_campos_e_urls(pack, dist):
     assert list(doc) == CAMPOS
     assert doc["schema"] == 1 and doc["versao"] == "0.3.9" and doc["tag"] == "pack-v0.3.9"
     assert doc["publicadoEm"] == "2026-10-20T15:00:00Z"
-    assert (doc["minecraft"], doc["neoforge"]) == ("1.21.1", "21.1.222")
+    assert (doc["minecraft"], doc["neoforge"]) == ("1.21.1", "21.1.262")
     base = "https://github.com/pedro/tensura-pack/releases/download/pack-v0.3.9"
     assert doc["arquivos"]["mrpack"]["url"] == f"{base}/tensura-0.3.9.mrpack"
     assert doc["arquivos"]["zip"]["url"] == f"{base}/tensura-0.3.9.zip"
