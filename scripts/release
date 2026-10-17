@@ -137,7 +137,11 @@ while IFS= read -r linha; do
         if [[ -n "$k" && "$linha" == *"$k"* ]]; then ok=1; break; fi
     done
     [[ $ok -eq 1 ]] || fora+=("$linha")
-done < <(printf '%s\n' "$saida" | grep -i 'manual download' || true)
+done < <(printf '%s\n' "$saida" \
+    | grep -iE 'manual download| from https://(www\.)?curseforge\.com/' \
+    | grep -viE '^Found [0-9]+ manual downloads' || true)
+# o cabeçalho real ("Found N manual downloads; …") não traz id: os mods vêm nas linhas
+# "<Nome> (<arquivo>) from https://www.curseforge.com/…" (spec §0.1); export com status ≠ 0 cai abaixo
 if [[ ${#fora[@]} -gt 0 ]]; then
     echo "erro: o export pede download manual de mods fora do manual.toml (R3.6):" >&2
     printf '  %s\n' "${fora[@]}" >&2

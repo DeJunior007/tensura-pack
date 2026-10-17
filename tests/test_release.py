@@ -115,6 +115,21 @@ def test_manual_download_fora_do_manual_toml(repo: Path):
     assert not (repo / "pack" / "dist" / "tensura-0.3.10.zip").exists()
 
 
+def test_manual_download_formato_real_lista_o_mod(repo: Path):
+    # texto real do packwiz (spec §0.1): cabeçalho sem id + uma linha por mod
+    saida = (
+        "Found 1 manual downloads; these mods are unable to be downloaded by packwiz "
+        "(due to API limitations) and must be manually downloaded:\n"
+        "Mod Sumido (mod-sumido-1.0.jar) from "
+        "https://www.curseforge.com/minecraft/mc-mods/mod-sumido/files/123\n"
+        "Once you have done so, place these files in /cache/import and re-run this command."
+    )
+    r = _rodar(repo, "patch", "--dry-run", FAKE_MANUAL=saida)
+    assert r.returncode == 1
+    assert "mod-sumido-1.0.jar" in r.stderr
+    assert "Found 1 manual downloads" not in r.stderr
+
+
 def test_manual_download_de_id_do_manual_toml_passa(repo: Path):
     r = _rodar(repo, "patch", "--dry-run",
                FAKE_MANUAL="FTB Library (ftb-library) requires manual download")
