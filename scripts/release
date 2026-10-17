@@ -1,0 +1,203 @@
+#!/usr/bin/env bash
+# release — gera e publica uma versão do pack (spec §3.1).
+#
+#   pack/scripts/release patch|minor|major [--dry-run] [--sem-publicar]
+#
+# Variáveis: PACKWIZ (padrão packwiz), GH (padrão gh), PACK_REPO (obrigatória fora do
+# --dry-run, ex. pedro/tensura-pack), PACK_REMOTE (padrão pack-publico), PY (padrão
+# "uv run python"; comando que roda os scripts Python).
+#
+# --dry-run: passos 2–6 numa cópia temporária de pack/ (pack.toml real intacto, sem commit,
+# tag, push nem release); os artefatos ficam em pack/dist/ (fora do git).
+# --sem-publicar: faz tudo (commit, split, tag) menos o passo 8 (push e gh release).
+set -euo pipefail
+
+uso() {
+    echo "uso: release patch|minor|major [--dry-run] [--sem-publicar]" >&2
+    exit 2
+}
+
+NIVEL=""
+DRY=0
+SEM_PUBLICAR=0
+for arg in "$@"; do
+    case "$arg" in
+        patch|minor|major) [[ -z "$NIVEL" ]] || uso; NIVEL="$arg" ;;
+        --dry-run) DRY=1 ;;
+        --sem-publicar) SEM_PUBLICAR=1 ;;
+        *) uso ;;
+    esac
+done
+[[ -n "$NIVEL" ]] || uso
+
+PACKWIZ="${PACKWIZ:-packwiz}"
+GH="${GH:-gh}"
+PACK_REMOTE="${PACK_REMOTE:-pack-publico}"
+read -ra PYCMD <<< "${PY:-uv run python}"
+
+if [[ $DRY -eq 0 && -z "${PACK_REPO:-}" ]]; then
+    echo "erro: defina PACK_REPO (ex. pedro/tensura-pack)" >&2
+    exit 2
+fi
+PACK_REPO="${PACK_REPO:-org/tensura-pack}"
+
+RAIZ="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
+cd "$RAIZ"
+SCRIPTS="$RAIZ/pack/scripts"
+DIST="$RAIZ/pack/dist"
+
+TMP="$(mktemp -d)"
+trap 'rm -rf "$TMP"' EXIT
+
+passo() { echo "==> $*"; }
+falha() { echo "erro: $*" >&2; exit 1; }
+py() { "${PYCMD[@]}" "$SCRIPTS/$1" "${@:2}"; }
+
+# Diretório do pack que os passos 2–6 usam (cópia no --dry-run).
+if [[ $DRY -eq 1 ]]; then
+    PACK="$TMP/pack"
+    cp -a "$RAIZ/pack" "$PACK"
+    rm -rf "$PACK/dist"
+else
+    PACK="$RAIZ/pack"
+fi
+
+# 1. Árvore limpa
+passo "1. árvore limpa em pack/"
+if [[ $DRY -eq 1 ]]; then
+    echo "(--dry-run: pulado)"
+elif [[ -n "$(git status --porcelain -- pack)" ]]; then
+    git status --short -- pack >&2
+    falha "pack/ tem mudanças não commitadas"
+fi
+
+# 2. Refresh e checagens
+passo "2. packwiz refresh, checar.py, licencas.py checar"
+(cd "$PACK" && "$PACKWIZ" refresh)
+py checar.py --pack "$PACK"
+py licencas.py checar --pack "$PACK"
+
+# 3. Versão e CHANGELOG
+passo "3. versao.py $NIVEL"
+V="$(py versao.py "$NIVEL" --pack "$PACK" | tail -n 1)"
+[[ "$V" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || falha "versao.py devolveu versão inválida: '$V'"
+echo "versão nova: $V"
+
+CHANGELOG="$PACK/CHANGELOG.md"
+# O que estiver entre o título "# …" e a primeira seção "## " (notas ainda sem versão) desce
+# para dentro da seção nova que o versao.py criou.
+awk -v cab="## v$V " '
+    NR == 1 && /^# / { titulo = $0; next }
+    !achou && index($0, cab) == 1 { achou = 1; secao = $0; next }
+    !achou { if ($0 != "" || n) pre[++n] = $0; next }
+    achou && !corpo && $0 == "" { next }
+    achou { corpo = 1; resto[++r] = $0 }
+    END {
+        while (n > 0 && pre[n] == "") n--
+        if (titulo != "") print titulo "\n"
+        print secao "\n"
+        for (i = 1; i <= n; i++) print pre[i]
+        if (n > 0 && r > 0) print ""
+        for (i = 1; i <= r; i++) print resto[i]
+    }' "$CHANGELOG" > "$TMP/CHANGELOG.md"
+cp "$TMP/CHANGELOG.md" "$CHANGELOG"
+
+# Seção da versão (até a próxima "## ") → notas da release
+awk -v cab="## v$V " '
+    index($0, cab) == 1 { dentro = 1; next }
+    dentro && /^## / { exit }
+    dentro { print }' "$CHANGELOG" > "$TMP/notas.md"
+if ! grep -q '[^[:space:]]' "$TMP/notas.md"; then
+    if [[ $DRY -eq 0 ]]; then
+        git checkout -- pack/pack.toml pack/CHANGELOG.md
+    fi
+    falha "a seção v$V do CHANGELOG.md está vazia: escreva as mudanças no topo do arquivo (logo abaixo de '# Changelog'), faça commit e rode de novo"
+fi
+
+# 4. Refresh e dist/
+passo "4. packwiz refresh, pack/dist/ limpo"
+(cd "$PACK" && "$PACKWIZ" refresh)
+rm -rf "$DIST" && mkdir "$DIST"
+
+# 5. Export do .mrpack sem classe B
+MRPACK="$DIST/tensura-$V.mrpack"
+passo "5. copiar_sem.py --classes B, packwiz modrinth export"
+py copiar_sem.py "$PACK" "$TMP/mr" --classes B
+(cd "$TMP/mr" && "$PACKWIZ" refresh)
+status=0
+saida="$(cd "$TMP/mr" && "$PACKWIZ" modrinth export -o "$MRPACK" 2>&1)" || status=$?
+printf '%s\n' "$saida"
+
+# R3.6: "manual download" só de mods listados no manual.toml
+mapfile -t conhecidos < <(sed -nE 's/^[[:space:]]*(id|nome|arquivo)[[:space:]]*=[[:space:]]*"([^"]+)".*/\2/p' "$PACK/manual.toml" 2>/dev/null || true)
+fora=()
+while IFS= read -r linha; do
+    ok=0
+    for k in "${conhecidos[@]}"; do
+        if [[ -n "$k" && "$linha" == *"$k"* ]]; then ok=1; break; fi
+    done
+    [[ $ok -eq 1 ]] || fora+=("$linha")
+done < <(printf '%s\n' "$saida" | grep -i 'manual download' || true)
+if [[ ${#fora[@]} -gt 0 ]]; then
+    echo "erro: o export pede download manual de mods fora do manual.toml (R3.6):" >&2
+    printf '  %s\n' "${fora[@]}" >&2
+    exit 1
+fi
+[[ $status -eq 0 ]] || falha "packwiz modrinth export saiu com $status"
+[[ -f "$MRPACK" ]] || falha "o export não gerou $MRPACK"
+
+# 6. Artefatos
+passo "6. verificar_mrpack.py, zip_fallback.py, mods_json.py, latest.py"
+py verificar_mrpack.py "$MRPACK" --pack "$PACK"
+py zip_fallback.py "$MRPACK" --saida "$DIST" --pack "$PACK"
+py mods_json.py --saida "$DIST" --pack "$PACK"
+n_manual="$(grep -cE '^\[\[mod\]\]' "$PACK/manual.toml" 2>/dev/null || true)"
+if [[ "${n_manual:-0}" -gt 3 ]]; then
+    echo "B+C = $n_manual > 3: export CurseForge (D5-b)"
+    (cd "$PACK" && "$PACKWIZ" curseforge export -o "$DIST/tensura-$V-curseforge.zip")
+fi
+py latest.py --dist "$DIST" --repo "$PACK_REPO" --pack "$PACK"
+
+proximo_passo() {
+    passo "9. próximo passo no servidor (node 2, à mão)"
+    echo "  PACK_VERSION=$V em /opt/minecraft/.env"
+    echo "  /opt/minecraft/backup.sh"
+    echo "  cd /opt/minecraft && docker compose up -d"
+}
+
+if [[ $DRY -eq 1 ]]; then
+    passo "7–8. (--dry-run: sem commit, tag, push nem release)"
+    echo "artefatos em $DIST"
+    proximo_passo
+    exit 0
+fi
+
+# 7. Commit, split e tag
+passo "7. commit, subtree split, tag pack-v$V"
+git add -A -- pack
+git commit -q -m "pack v$V" -- pack
+RAMO="pack-v$V-arvore"
+if [[ -x "$(git --exec-path)/git-subtree" ]]; then
+    git subtree split --prefix pack -b "$RAMO"
+else
+    # Sem git-subtree instalado: commit com a árvore de pack/ sobre o split anterior.
+    echo "(git subtree indisponível: split por commit-tree)"
+    pai=()
+    anterior="$(git for-each-ref --format='%(refname:short)' 'refs/heads/pack-v*-arvore' | sort -V | tail -n 1)"
+    [[ -n "$anterior" ]] && pai=(-p "$anterior")
+    commit="$(git commit-tree "${pai[@]}" -m "pack v$V" "HEAD:pack")"
+    git branch "$RAMO" "$commit"
+fi
+git tag "pack-v$V" "$RAMO"
+
+# 8. Publicação
+if [[ $SEM_PUBLICAR -eq 1 ]]; then
+    passo "8. publicação (--sem-publicar: pulada)"
+else
+    passo "8. git push $PACK_REMOTE, gh release create"
+    git push "$PACK_REMOTE" "$RAMO:main" "pack-v$V"
+    "$GH" release create "pack-v$V" --repo "$PACK_REPO" --title "Tensura SMP v$V" \
+        --notes-file "$TMP/notas.md" --latest "$DIST"/*
+fi
+
+proximo_passo

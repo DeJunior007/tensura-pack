@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""packwiz falso (CA-T8): registra a chamada em $FAKE_LOG e, em `modrinth export -o ARQ`,
+gera um `.mrpack` sintético (fixtures/extra.montar_mrpack) a partir do diretório atual, com
+`downloads` em `file://` para jars falsos em $FAKE_JARS. `curseforge export -o ARQ` grava um
+zip vazio. Com $FAKE_MANUAL, o export imprime essa linha (simula "manual download")."""
+
+import os
+import sys
+import zipfile
+from pathlib import Path
+
+TESTS = Path(__file__).resolve().parents[1]
+sys.path[:0] = [str(TESTS), str(TESTS.parent / "scripts")]
+
+args = sys.argv[1:]
+log = os.environ.get("FAKE_LOG")
+if log:
+    with open(log, "a", encoding="utf-8") as f:
+        f.write(" ".join(["packwiz", *args]) + "\t" + os.getcwd() + "\n")
+
+
+def saida() -> Path:
+    if "-o" not in args:
+        sys.exit("packwiz falso: falta -o")
+    arq = Path(args[args.index("-o") + 1])
+    if not arq.is_absolute():
+        arq = Path.cwd() / arq
+    if not arq.parent.is_dir():  # como o packwiz real (spec §0.2)
+        sys.exit(f"packwiz falso: diretório inexistente {arq.parent}")
+    return arq
+
+
+if args[:1] == ["refresh"]:
+    sys.exit(0)
+if args[:2] == ["modrinth", "export"]:
+    import _comum as c
+    from fixtures.extra import conteudo_jar, montar_mrpack
+
+    arq = saida()
+    if os.environ.get("FAKE_MANUAL"):
+        print(os.environ["FAKE_MANUAL"])
+    jars = Path(os.environ.get("FAKE_JARS") or (arq.parent.parent / "jars-falsos"))
+    jars.mkdir(parents=True, exist_ok=True)
+    por_nome = {m.arquivo: m.id for m in c.ler_mods(Path.cwd())}
+
+    def file_urls(indice: dict) -> None:
+        for f in indice["files"]:
+            nome = f["path"].rsplit("/", 1)[-1]
+            jar = jars / nome
+            jar.write_bytes(conteudo_jar(por_nome[nome]))
+            f["downloads"] = [jar.as_uri()]
+
+    montar_mrpack(Path.cwd(), arq, mexer_indice=file_urls)
+    print(f"Modpack exported to {arq.name}")
+    sys.exit(0)
+if args[:2] == ["curseforge", "export"]:
+    with zipfile.ZipFile(saida(), "w") as z:
+        z.writestr("manifest.json", "{}")
+    sys.exit(0)
+sys.exit(f"packwiz falso: comando não simulado: {args}")

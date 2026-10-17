@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# gh falso (CA-T8): só registra a chamada em $FAKE_LOG.
+set -euo pipefail
+if [[ -n "${FAKE_LOG:-}" ]]; then
+    printf 'gh %s\t%s\n' "$*" "$PWD" >> "$FAKE_LOG"
+fi
