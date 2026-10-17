@@ -1,5 +1,6 @@
 # Changelog
 
+- ~ Dawn of Time fixado na 1.6.0: a 1.6.7 derrubava o servidor ao gerar a vila subterrânea dos homens-lagarto (cama de palha do Tensura)
 ## v0.1.0 — 2026-10-17
 
 - + IceAndFire Community Edition 2.0-beta.15 (+ Uranus, Jupiter) e FTB Quests: exigidos pelos Tensura Compat de Ice & Fire e FTB

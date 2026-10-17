@@ -320,6 +320,7 @@ nome = "Dawn of Time"
 categoria = "construcao"
 planilha = "Construção / Decoração"
 classe = "modrinth"
+nota = "fixado na 1.6.0: da 1.6.1 em diante um mixin na cama derruba o servidor ao gerar vilas do Tensura"
 
 [deeper-oceans]
 nome = "Deeper Oceans"

@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/dawn-of-time.pw.toml"
-hash = "685586ef56f27c8a1e39fa6356c1d8d38f5e2741e263b10ac42c87bf5f320dbb"
+hash = "dc29380089a1e823f55f4c6cb6be093afcd9a7ff52f5ef6fc6577897d6f14701"
 metafile = true
 
 [[files]]
