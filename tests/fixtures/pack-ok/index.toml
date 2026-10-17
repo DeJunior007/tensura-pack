@@ -1,0 +1,35 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/exemplo.toml"
+hash = "10db38c7b0d9fa0d0b18ece13dad74f95598fdc8e5471c0ba259a8859b8ddafc"
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "17e53b48186289c17c2dd1ab54637722c0954b2ceda7812ae1e40d43b1610db6"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library.pw.toml"
+hash = "ccd579e75b754d4a524d65a86e34ab4051e1b8b0811a3d44bb0a9ec12737ebbc"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "aefe9c194c20015ef99e81976dd4aa5210186c3269b13f4ae8f4b7f123d8b158"
+metafile = true
+
+[[files]]
+file = "mods/minecolonies.pw.toml"
+hash = "fda19549fc7b9538d5e7b879a8290b860505cc41426ee3425476d8380d6a489e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "fca859f6396eb908b83defffa16481de9f9f098ec6f97402d1ff8100b1b56b33"
+metafile = true
+
+[[files]]
+file = "resourcepacks/slime-gui-pack.pw.toml"
+hash = "d06e50798d8ef16ff60a9f5ab71366ee7a009b8e8604ec89904b65076d4cbf63"
+metafile = true

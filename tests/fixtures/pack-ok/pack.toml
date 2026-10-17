@@ -1,0 +1,13 @@
+name = "Tensura SMP"
+author = "Pedro"
+version = "0.3.9"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ac4aa246cd544a66a0dce54d538d3177cc7b7f61c153827a83a67d5721113627"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.222"

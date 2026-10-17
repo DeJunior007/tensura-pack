@@ -1,0 +1,8 @@
+{
+  "create": {"licenca": "MIT", "fonte": "modrinth", "consultadoEm": "2026-10-17T12:00:00+00:00"},
+  "ftb-library": {"licenca": "ARR", "fonte": "cfwidget", "consultadoEm": "2026-10-17T12:00:01+00:00"},
+  "jei": {"licenca": "MIT", "fonte": "modrinth", "consultadoEm": "2026-10-17T12:00:02+00:00"},
+  "minecolonies": {"licenca": "GPL-3.0-or-later", "fonte": "cfwidget", "consultadoEm": "2026-10-17T12:00:03+00:00"},
+  "slime-gui-pack": {"licenca": "CC-BY-4.0", "fonte": "modrinth", "consultadoEm": "2026-10-17T12:00:04+00:00"},
+  "xaeros-world-map": {"licenca": "ARR", "fonte": "modrinth", "consultadoEm": "2026-10-17T12:00:05+00:00"}
+}

@@ -1,0 +1,2 @@
+# ids com side = "client" (R3.2)
+slime-gui-pack

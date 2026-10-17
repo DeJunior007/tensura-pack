@@ -1,0 +1,19 @@
+[[mod]]
+id = "ftb-library"
+nome = "FTB Library"
+classe = "B"
+lado = "both"
+arquivo = "ftb-library-neoforge-2101.1.10.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/5999999"
+sha1 = "fafc3fae7ef7ca7cbc9766fe7eb375fcf501467e"
+pasta = "mods"
+
+[[mod]]
+id = "ftb-teams"
+nome = "FTB Teams"
+classe = "C"
+lado = "both"
+arquivo = "ftb-teams-neoforge-2101.1.4.jar"
+pagina = "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/5888888"
+sha1 = "5283aa8a7ab394ea5834e380137bcc1557be92bf"
+pasta = "mods"

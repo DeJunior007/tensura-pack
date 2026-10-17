@@ -1,0 +1,48 @@
+[create]
+nome = "Create"
+categoria = "tecnologia"
+planilha = "Tecnologia"
+classe = "modrinth"
+nota = ""
+
+[ftb-library]
+nome = "FTB Library"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "B"
+nota = ""
+
+[ftb-teams]
+nome = "FTB Teams"
+categoria = "bibliotecas"
+planilha = "Bibliotecas"
+classe = "C"
+nota = ""
+
+[jei]
+nome = "Just Enough Items"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+nota = ""
+
+[minecolonies]
+nome = "MineColonies"
+categoria = "colonias"
+planilha = "NPCs / Construção"
+classe = "A"
+nota = ""
+
+[slime-gui-pack]
+nome = "Slime GUI Pack"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+nota = ""
+
+[xaeros-world-map]
+nome = "Xaero's World Map"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+nota = ""

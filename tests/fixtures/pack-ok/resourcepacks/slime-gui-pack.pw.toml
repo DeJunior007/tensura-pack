@@ -1,0 +1,13 @@
+name = "Slime GUI Pack"
+filename = "Slime-GUI-Pack-1.21.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aBcDeFgH/versions/q1W2e3R4/Slime-GUI-Pack-1.21.zip"
+hash-format = "sha512"
+hash = "14e3e61cdb8adab64584171dba68c67c1712340d73b005b451b8cb97cd81d015de68be64907719af012578895cb37f144edcb38da07d9ba5b0ead9d60fd064ac"
+
+[update]
+[update.modrinth]
+mod-id = "aBcDeFgH"
+version = "q1W2e3R4"
