@@ -1,5 +1,7 @@
 # Changelog
 
+## v0.1.0 — 2026-10-17
+
 - + IceAndFire Community Edition 2.0-beta.15 (+ Uranus, Jupiter) e FTB Quests: exigidos pelos Tensura Compat de Ice & Fire e FTB
 - + Atlas Api, Additional Attributes, Lodestone, Entropy Lib, YUNG's API (dependências que faltavam; achadas no teste local do servidor)
 - ~ Noisiumed e Not Enough Trials: build NeoForge (o add tinha pego Fabric/Forge)
