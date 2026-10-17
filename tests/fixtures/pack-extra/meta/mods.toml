@@ -1,0 +1,14 @@
+
+[chunky]
+nome = "Chunky"
+categoria = "mundo"
+planilha = "Exploração / Biomas"
+classe = "modrinth"
+nota = ""
+
+[mouse-tweaks]
+nome = "Mouse Tweaks"
+categoria = "qol"
+planilha = "Qualidade de Vida"
+classe = "modrinth"
+nota = ""

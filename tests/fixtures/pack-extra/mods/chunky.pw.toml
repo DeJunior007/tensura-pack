@@ -1,0 +1,13 @@
+name = "Chunky"
+filename = "Chunky-NeoForge-1.4.23.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/fALzjamp/versions/dPliWter/Chunky-NeoForge-1.4.23.jar"
+hash-format = "sha512"
+hash = "b6c914af1641152b31fad2a4bfb546070e4477c0a95249820c9c387369ee0def696be1bce4e492541cae1d996265c8ff1994066702ad9eb70cad38b616211c51"
+
+[update]
+[update.modrinth]
+mod-id = "fALzjamp"
+version = "dPliWter"
