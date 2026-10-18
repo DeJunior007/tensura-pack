@@ -1,0 +1,13 @@
+name = "Nedologin"
+filename = "Nedologin-1.21.1-1.0.9-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fnP1u8PK/versions/3neDQjqp/Nedologin-1.21.1-1.0.9-all.jar"
+hash-format = "sha512"
+hash = "332067b1109826c0f53d276cebde112d53b4814f095d85b71c4e1b4c9e0200e2f0473f654b595b0e18d4d880bd9501a6d40f5392b05b42dcf43d0bc2e3650285"
+
+[update]
+[update.modrinth]
+mod-id = "fnP1u8PK"
+version = "3neDQjqp"

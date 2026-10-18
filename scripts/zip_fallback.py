@@ -1,12 +1,16 @@
 """Gera o `.zip` de instalação manual a partir do `.mrpack` (spec §3; ≠ design §3).
 
-    zip_fallback.py ARQ.mrpack --saida dist/ [--pack DIR]
+    zip_fallback.py ARQ.mrpack --saida dist/ [--pack DIR] [--completo]
 
 Lê o `modrinth.index.json`, baixa os `files` com `env.client != "unsupported"` cuja licença
 (meta/mods.toml > meta/licencas.json) é aberta, conferindo sha1 (e sha512, se houver); copia
 `overrides/` e `client-overrides/` (config, resourcepacks, jars classe A; `server-overrides/` fica
 de fora); gera `LEIA-ME.txt` (NeoForge + lista "baixe à mão" com a página de cada mod fora do zip)
 e grava `tensura-<v>.zip` com raiz relativa a `.minecraft/`.
+
+`--completo` (D12, TLauncher/grupo fechado): sem filtro de licença e com os jars B/C de
+`manual.toml` baixados do CDN da CurseForge (sha1 conferido) → `tensura-<v>-tlauncher.zip`, que
+basta extrair na `.minecraft`.
 """
 
 from __future__ import annotations
@@ -14,7 +18,9 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import sys
+import urllib.parse
 import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
@@ -42,6 +48,38 @@ def _seguro(caminho: str) -> str:
     return p.as_posix()
 
 
+def url_cdn_cf(item: dict) -> str:
+    """URL do jar no CDN da CurseForge a partir da página do arquivo (…/files/<fileID>)."""
+    fid = str(item.get("pagina", "")).rstrip("/").rsplit("/", 1)[-1]
+    if not fid.isdigit() or len(fid) < 5:
+        raise ErroZip(f"{item.get('id')}: página sem fileID: {item.get('pagina')!r}")
+    arquivo = urllib.parse.quote(str(item["arquivo"]))
+    base = os.environ.get("TENSURA_CF_CDN", "https://mediafilez.forgecdn.net/files")  # testes trocam
+    return f"{base.rstrip('/')}/{fid[:4]}/{int(fid[4:])}/{arquivo}"
+
+
+def leia_me_tlauncher(versao: str, fora: list[tuple[str, str, str]]) -> str:
+    instalador = (f"https://maven.neoforged.net/releases/net/neoforged/neoforge/{c.NEOFORGE}/"
+                  f"neoforge-{c.NEOFORGE}-installer.jar")
+    linhas = [
+        f"Tensura SMP {versao} — TLauncher (ou qualquer launcher sem importação de modpack)",
+        "",
+        f"1. Baixe o instalador do NeoForge {c.NEOFORGE}: {instalador}",
+        "   Rode-o (duplo clique ou `java -jar`), escolha \"Install client\" e aponte para a pasta",
+        "   .minecraft do TLauncher.",
+        f"2. Na pasta .minecraft, mova a pasta mods/ atual para outro lugar (mods de outras versões",
+        f"   quebram o jogo) e extraia este zip ali: mods/, config/ e resourcepacks/.",
+        f"3. No TLauncher, escolha a versão neoforge-{c.NEOFORGE} e ponha 8 GB de memória",
+        "   (Configurações → memória; mínimo 6 GB).",
+        "4. Multijogador → Adicionar servidor: mc.dekasis.com.br",
+        "5. Na primeira vez no servidor: /register <senha>. Nas próximas: /login <senha>.",
+    ]
+    if fora:
+        linhas += ["", "Não couberam no zip (baixe à mão):"]
+        linhas += [f"- {nome} — {pag} (pasta: {pasta})" for nome, pag, pasta in fora]
+    return "\n".join(linhas) + "\n"
+
+
 def leia_me(versao: str, fora: list[tuple[str, str, str]]) -> str:
     linhas = [
         f"Tensura SMP {versao} — instalação manual",
@@ -66,8 +104,9 @@ def gerar_zip(
     saida: Path,
     pack_dir: Path = c.PACK_DIR,
     baixar: Callable[[str], bytes] = baixar_http,
+    completo: bool = False,
 ) -> Path:
-    """Grava `saida/tensura-<v>.zip` e devolve o caminho. Falha → ErroZip."""
+    """Grava `saida/tensura-<v>.zip` (ou `-tlauncher.zip` com `completo`). Falha → ErroZip."""
     meta = c.ler_meta(pack_dir)
     licencas = c.ler_licencas(pack_dir)
     mods = c.ler_mods(pack_dir)
@@ -94,7 +133,7 @@ def gerar_zip(
                 fora.append((nome_arq, "(página desconhecida)", pasta))
                 continue
             lic = c.licenca_de(mod.id, meta, licencas)
-            if not c.licenca_aberta(lic):
+            if not completo and not c.licenca_aberta(lic):
                 nome = str(meta.get(mod.id, {}).get("nome") or mod.nome)
                 fora.append((nome, c.pagina(mod, meta.get(mod.id, {})), pasta))
                 continue
@@ -119,13 +158,22 @@ def gerar_zip(
     for item in c.ler_manual(pack_dir):
         if str(item.get("lado", "both")) == "server":
             continue
+        if completo:
+            pasta = str(item.get("pasta") or "mods")
+            url = url_cdn_cf(item)
+            dados = baixar(url)
+            if hashlib.sha1(dados).hexdigest() != str(item.get("sha1", "")).lower():
+                raise ErroZip(f"{item.get('id')}: sha1 divergente em {url}")
+            conteudo[_seguro(f"{pasta}/{item['arquivo']}")] = dados
+            continue
         fora.append((str(item.get("nome") or item.get("id")), str(item.get("pagina") or ""),
                      str(item.get("pasta") or "mods")))
     fora.sort(key=lambda t: c.normalizar(t[0]))
-    conteudo["LEIA-ME.txt"] = leia_me(versao, fora).encode("utf-8")
+    texto = leia_me_tlauncher(versao, fora) if completo else leia_me(versao, fora)
+    conteudo["LEIA-ME.txt"] = texto.encode("utf-8")
 
     saida.mkdir(parents=True, exist_ok=True)
-    destino = saida / f"tensura-{versao}.zip"
+    destino = saida / (f"tensura-{versao}-tlauncher.zip" if completo else f"tensura-{versao}.zip")
     tmp = destino.with_suffix(".zip.tmp")
     with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as out:
         for nome in sorted(conteudo):
@@ -139,12 +187,14 @@ def main(argv: list[str] | None = None, baixar: Callable[[str], bytes] = baixar_
     ap.add_argument("mrpack", type=Path)
     ap.add_argument("--saida", type=Path, required=True)
     ap.add_argument("--pack", type=Path, default=c.PACK_DIR)
+    ap.add_argument("--completo", action="store_true",
+                    help="todos os jars do cliente, sem filtro de licença (D12, TLauncher)")
     a = ap.parse_args(argv)
     if not a.mrpack.is_file():
         c.erro(f"erro: {a.mrpack} não existe")
         return 2
     try:
-        destino = gerar_zip(a.mrpack, a.saida, a.pack, baixar)
+        destino = gerar_zip(a.mrpack, a.saida, a.pack, baixar, completo=a.completo)
     except (ErroZip, zipfile.BadZipFile, KeyError, json.JSONDecodeError, OSError) as e:
         c.erro(f"erro: {e}")
         return 1

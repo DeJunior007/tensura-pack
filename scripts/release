@@ -154,6 +154,7 @@ fi
 passo "6. verificar_mrpack.py, zip_fallback.py, mods_json.py, latest.py"
 py verificar_mrpack.py "$MRPACK" --pack "$PACK"
 py zip_fallback.py "$MRPACK" --saida "$DIST" --pack "$PACK"
+py zip_fallback.py "$MRPACK" --saida "$DIST" --pack "$PACK" --completo   # D12: TLauncher
 py mods_json.py --saida "$DIST" --pack "$PACK"
 n_manual="$(grep -cE '^\[\[mod\]\]' "$PACK/manual.toml" 2>/dev/null || true)"
 if [[ "${n_manual:-0}" -gt 3 ]]; then

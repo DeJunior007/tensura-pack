@@ -1220,3 +1220,11 @@ planilha = ""
 classe = "B"
 licenca = "LicenseRef-All-Rights-Reserved"
 nota = "exigido pelo Tensura Compat: FTB"
+
+[nedologin]
+nome = "Nedologin"
+categoria = "qol"
+planilha = ""
+classe = "modrinth"
+licenca = "LicenseRef-Beerware"
+nota = "login com senha (/register, /login) para o servidor em modo offline"

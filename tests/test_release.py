@@ -6,6 +6,7 @@ de `pack/scripts/`) e o remote `pack-publico` apontando para um bare repo local.
 
 from __future__ import annotations
 
+import hashlib
 import os
 import shutil
 import subprocess
@@ -14,7 +15,7 @@ from pathlib import Path
 
 import pytest
 
-from fixtures.extra import montar_pack
+from fixtures.extra import conteudo_jar, montar_pack
 
 TESTS = Path(__file__).resolve().parent
 SCRIPTS = TESTS.parent / "scripts"
@@ -51,6 +52,21 @@ def repo(tmp_path: Path) -> Path:
     return raiz
 
 
+def _cdn_cf_local(repo: Path) -> Path:
+    """Jars B/C do manual.toml num "CDN da CurseForge" local (file://) para o zip --completo."""
+    import tomllib
+    import urllib.parse
+    from fixtures.extra import conteudo_jar
+    base = repo.parent / "cdn-cf"
+    manual = repo / "pack" / "manual.toml"
+    for m in tomllib.loads(manual.read_text()).get("mod", []) if manual.exists() else []:
+        fid = m["pagina"].rstrip("/").rsplit("/", 1)[-1]
+        destino = base / fid[:4] / str(int(fid[4:])) / urllib.parse.quote(m["arquivo"])
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_bytes(conteudo_jar(m["id"]))
+    return base
+
+
 def _rodar(repo: Path, *args: str, **env_extra: str) -> subprocess.CompletedProcess:
     env = {k: v for k, v in os.environ.items() if k not in ("PACK_REPO", "PACK_REMOTE")}
     env.update({
@@ -59,6 +75,7 @@ def _rodar(repo: Path, *args: str, **env_extra: str) -> subprocess.CompletedProc
         "FAKE_LOG": str(repo.parent / "chamadas.log"),
         "FAKE_JARS": str(repo.parent / "jars"),
         "GIT_CONFIG_NOSYSTEM": "1",
+        "TENSURA_CF_CDN": _cdn_cf_local(repo).as_uri(),
     })
     env.pop("FAKE_MANUAL", None)
     env.update(env_extra)
@@ -104,7 +121,7 @@ def test_dry_run(repo: Path):
     dist = repo / "pack" / "dist"
     assert sorted(p.name for p in dist.iterdir()) == [
         "SHA256SUMS", "latest.json", "manual.json", "mods.json",
-        "tensura-0.4.0.mrpack", "tensura-0.4.0.zip"]
+        "tensura-0.4.0-tlauncher.zip", "tensura-0.4.0.mrpack", "tensura-0.4.0.zip"]
 
 
 def test_manual_download_fora_do_manual_toml(repo: Path):
@@ -156,8 +173,9 @@ def test_curseforge_com_mais_de_3_manuais(repo: Path):
         for i in (1, 2):
             f.write(f'\n[[mod]]\nid = "extra-{i}"\nnome = "Extra {i}"\nclasse = "C"\n'
                     f'lado = "both"\narquivo = "extra-{i}.jar"\n'
-                    f'pagina = "https://www.curseforge.com/minecraft/mc-mods/extra-{i}"\n'
-                    f'sha1 = "{"0" * 40}"\npasta = "mods"\n')
+                    f'pagina = "https://www.curseforge.com/minecraft/mc-mods/extra-{i}/files/700000{i}"\n'
+                    f'sha1 = "{hashlib.sha1(conteudo_jar(f"extra-{i}")).hexdigest()}"\n'
+                    f'pasta = "mods"\n')
     with (pack / "meta" / "mods.toml").open("a", encoding="utf-8") as f:
         for i in (1, 2):
             f.write(f'\n[extra-{i}]\nnome = "Extra {i}"\ncategoria = "bibliotecas"\n'

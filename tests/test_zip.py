@@ -109,3 +109,46 @@ def test_licenca_do_meta_sobrepoe(pack, tmp_path):
     z = zipfile.ZipFile(arq)
     assert not any("jei" in n for n in z.namelist())
     assert "https://modrinth.com/mod/jei" in z.read("LEIA-ME.txt").decode()
+
+
+def test_completo_tlauncher(pack, tmp_path):
+    """D12: --completo leva todo jar do cliente (sem filtro de licença) + B/C do CDN da CF."""
+    import _comum as c
+    import urllib.parse
+    mr = montar_mrpack(pack, tmp_path / "t.mrpack")
+    por_url = {m.url: m.id for m in c.ler_mods(pack) if m.url}
+    manual = {urllib.parse.quote(m["arquivo"]): m["id"] for m in c.ler_manual(pack)}
+    chamadas: list[str] = []
+
+    def baixar(url):
+        chamadas.append(url)
+        if url in por_url:
+            return conteudo_jar(por_url[url])
+        assert url.startswith("https://mediafilez.forgecdn.net/files/"), url
+        return conteudo_jar(manual[url.rsplit("/", 1)[-1]])
+
+    arq = zf.gerar_zip(mr, tmp_path / "dist", pack, baixar, completo=True)
+    assert arq.name.endswith("-tlauncher.zip")
+    with zipfile.ZipFile(arq) as z:
+        nomes = set(z.namelist())
+        leia = z.read("LEIA-ME.txt").decode()
+    jars = {n for n in nomes if n.startswith("mods/")}
+    # ARR (Xaero's) e B/C (FTB Library, FTB Teams) entram; nada só de servidor
+    for m in c.ler_manual(pack):
+        if m["lado"] != "server":
+            assert f"{m.get('pasta', 'mods')}/{m['arquivo']}" in nomes
+    assert any("xaero" in n.lower() for n in jars)
+    assert all(not n.startswith("server-overrides") for n in nomes)
+    assert "neoforge-" in leia and "/register" in leia and "Baixe à mão" not in leia
+
+
+def test_completo_sha1_divergente(pack, tmp_path):
+    mr = montar_mrpack(pack, tmp_path / "t.mrpack")
+    import _comum as c
+    por_url = {m.url: m.id for m in c.ler_mods(pack) if m.url}
+
+    def baixar(url):
+        return conteudo_jar(por_url[url]) if url in por_url else b"corrompido"
+
+    with pytest.raises(zf.ErroZip, match="sha1 divergente"):
+        zf.gerar_zip(mr, tmp_path / "dist", pack, baixar, completo=True)

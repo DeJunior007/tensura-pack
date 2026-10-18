@@ -4,7 +4,7 @@
 
 A versão vem do `pack.toml`; `notas` = corpo da seção `## vX.Y.Z` do `CHANGELOG.md`.
 Exige `tensura-<v>.mrpack`, `tensura-<v>.zip`, `mods.json` e `manual.json` em `dist/`;
-`tensura-<v>-curseforge.zip` é opcional (`curseforge: null` sem ele). `SHA256SUMS` cobre todos
+`tensura-<v>-curseforge.zip` e `tensura-<v>-tlauncher.zip` são opcionais (`null` sem eles). `SHA256SUMS` cobre todos
 os arquivos de `dist/` (inclusive `latest.json`) menos ele mesmo, no formato do `sha256sum`.
 """
 
@@ -84,6 +84,7 @@ def gerar(
             "mrpack": arquivo(f"tensura-{versao}.mrpack", True),
             "zip": arquivo(f"tensura-{versao}.zip", True),
             "curseforge": arquivo(f"tensura-{versao}-curseforge.zip", False),
+            "tlauncher": arquivo(f"tensura-{versao}-tlauncher.zip", False),
         },
         "modsJson": f"{base}/mods.json",
         "manualJson": f"{base}/manual.json",

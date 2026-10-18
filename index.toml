@@ -626,6 +626,11 @@ hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
+file = "mods/nedologin.pw.toml"
+hash = "af7243e096a68e5cb5550727d5ba91c8cb193cbe23cd8079ad4af8f38331c152"
+metafile = true
+
+[[files]]
 file = "mods/nether-depths-upgrade.pw.toml"
 hash = "c0390913da5f44155cc885bb81fc75b06f9bbd63766a607b338915f4c798c1d6"
 metafile = true
