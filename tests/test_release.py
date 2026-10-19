@@ -244,3 +244,15 @@ def test_uso_errado(repo: Path, args, env):
     r = _rodar(repo, *args, **env)
     assert r.returncode == 2
     assert _chamadas(repo) == []
+
+
+def test_falha_no_meio_desfaz_bump(repo: Path, tmp_path: Path):
+    """Erro depois do passo 3 (download do zip completo) não deixa pack.toml/CHANGELOG mexidos."""
+    antes = (repo / "pack" / "pack.toml").read_text()
+    r = _rodar(repo, "patch", "--sem-publicar", PACK_REPO="pedro/tensura-pack",
+               TENSURA_CF_CDN=(tmp_path / "nao-existe").as_uri())
+    assert r.returncode != 0
+    assert "desfazendo o bump" in r.stderr
+    assert (repo / "pack" / "pack.toml").read_text() == antes
+    assert _git(repo, "status", "--porcelain", "--", "pack").strip() == ""
+    assert "pack-v0.3.10" not in _git(repo, "tag")

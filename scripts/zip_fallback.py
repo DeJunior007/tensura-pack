@@ -35,10 +35,19 @@ class ErroZip(Exception):
     pass
 
 
-def baixar_http(url: str) -> bytes:  # pragma: no cover (rede)
+def baixar_http(url: str, tentativas: int = 4) -> bytes:  # pragma: no cover (rede)
+    """GET com novas tentativas (timeout/erro de rede derrubava a release inteira)."""
+    import time
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return r.read()
+    for i in range(tentativas):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return r.read()
+        except (OSError, TimeoutError) as e:  # URLError/HTTPError/timeout são OSError
+            if i == tentativas - 1 or getattr(e, "code", 0) in (403, 404) or not url.startswith("http"):
+                raise
+            time.sleep(5 * (i + 1))
+    raise AssertionError("inalcançável")
 
 
 def _seguro(caminho: str) -> str:

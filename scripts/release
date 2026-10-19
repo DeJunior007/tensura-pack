@@ -47,7 +47,16 @@ SCRIPTS="$RAIZ/pack/scripts"
 DIST="$RAIZ/pack/dist"
 
 TMP="$(mktemp -d)"
-trap 'rm -rf "$TMP"' EXIT
+VERSAO_TOCADA=0  # 1 entre o bump (passo 3) e o commit (passo 7) fora do --dry-run
+limpar() {
+    local status=$?
+    if [[ $status -ne 0 && $VERSAO_TOCADA -eq 1 ]]; then
+        echo "erro no meio da release: desfazendo o bump de versão em pack/" >&2
+        (cd "$RAIZ" && git checkout -- pack/pack.toml pack/CHANGELOG.md pack/index.toml 2>/dev/null) || true
+    fi
+    rm -rf "$TMP"
+}
+trap limpar EXIT
 
 passo() { echo "==> $*"; }
 falha() { echo "erro: $*" >&2; exit 1; }
@@ -79,6 +88,7 @@ py licencas.py checar --pack "$PACK"
 
 # 3. Versão e CHANGELOG
 passo "3. versao.py $NIVEL"
+[[ $DRY -eq 1 ]] || VERSAO_TOCADA=1
 V="$(py versao.py "$NIVEL" --pack "$PACK" | tail -n 1)"
 [[ "$V" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || falha "versao.py devolveu versão inválida: '$V'"
 echo "versão nova: $V"
@@ -179,6 +189,7 @@ fi
 
 # 7. Commit, split e tag
 passo "7. commit, subtree split, tag pack-v$V"
+VERSAO_TOCADA=0
 git add -A -- pack
 git commit -q -m "pack v$V" -- pack
 RAMO="pack-v$V-arvore"
