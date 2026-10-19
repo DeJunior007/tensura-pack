@@ -1,5 +1,6 @@
 # Changelog
 
+- + Iris 1.8.14-beta.1 (shaders, só cliente) com Complementary Reimagined (padrão, já ligado) e Complementary Unbound
 ## v0.1.2 — 2026-10-18
 
 - + Nedologin: login com senha no servidor (modo offline, TLauncher)

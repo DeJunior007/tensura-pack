@@ -1228,3 +1228,27 @@ planilha = ""
 classe = "modrinth"
 licenca = "LicenseRef-Beerware"
 nota = "login com senha (/register, /login) para o servidor em modo offline"
+
+[iris]
+nome = "Iris Shaders"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LGPL-3.0-only"
+nota = "só cliente; 1.8.14-beta.1 (a versão para Sodium 0.8). Shaders em shaderpacks/"
+
+[complementary-reimagined]
+nome = "Complementary Reimagined (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-Custom"
+nota = "shader padrão: bonito e leve"
+
+[complementary-unbound]
+nome = "Complementary Unbound (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-Custom"
+nota = "shader mais cinematográfico"

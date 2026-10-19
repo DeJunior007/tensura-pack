@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/iris.properties"
+hash = "a7efdd45115da4535dec2b609a6fedf80fb1845a61918ae2724cf9927a0b4d21"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -448,6 +452,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
@@ -938,4 +947,14 @@ metafile = true
 [[files]]
 file = "resourcepacks/that-time-i-got-reincarnated-as-a-slime-gui-pack.pw.toml"
 hash = "fb9ef45a904ce30a4c2810a14088d83f252fa667677ec86d0e5e37063d558cb5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
