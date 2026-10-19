@@ -1252,3 +1252,67 @@ planilha = "Imersão / Visual"
 classe = "modrinth"
 licenca = "LicenseRef-Custom"
 nota = "shader mais cinematográfico"
+
+[bsl-shaders]
+nome = "BSL Shaders (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-All-Rights-Reserved"
+nota = "clássico, equilibrado (médio)"
+
+[photon-shader]
+nome = "Photon Shaders (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-"
+nota = "céu e nuvens realistas (pesado)"
+
+[solas-shader]
+nome = "Solas Shader (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-All-Rights-Reserved"
+nota = "fantasia, cores suaves (médio)"
+
+[bliss-shader]
+nome = "Bliss Shaders (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-All-Rights-Reserved"
+nota = "atmosfera densa, ótimo à noite (pesado)"
+
+[sildurs-vibrant-shaders]
+nome = "Sildur's Vibrant Shaders (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-All-Rights-Reserved"
+nota = "cores vivas, versão Extreme (pesado)"
+
+[makeup-ultra-fast-shaders]
+nome = "MakeUp - Ultra Fast (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LGPL-3.0-or-later"
+nota = "o mais leve: para quando o FPS cair"
+
+[super-duper-vanilla]
+nome = "Super Duper Vanilla (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-FlameRender-TM-Studios-License"
+nota = "visual vanilla melhorado (leve)"
+
+[rethinking-voxels]
+nome = "Rethinking Voxels (shader)"
+categoria = "sobrevivencia"
+planilha = "Imersão / Visual"
+classe = "modrinth"
+licenca = "LicenseRef-Complementary-Agreement"
+nota = "luz colorida por voxel (muito pesado)"
