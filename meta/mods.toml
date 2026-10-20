@@ -342,13 +342,6 @@ classe = "A"
 licenca = "GPL-3.0"
 nota = "única versão 1.21.1 é beta/snapshot"
 
-[dreamwoods]
-nome = "Dreamwoods"
-categoria = "mundo"
-planilha = "Exploração / Biomas"
-classe = "B"
-licenca = "ARR"
-
 [emi]
 nome = "EMI"
 categoria = "qol"

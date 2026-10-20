@@ -290,11 +290,6 @@ hash = "d46331e2fffde2c3c2a952575e61827fb67ecbc200a030649bf3e08ad637c049"
 metafile = true
 
 [[files]]
-file = "mods/dreamwoods.pw.toml"
-hash = "bdb1ced0cf80c182dee67ef37d99f10eaede32a704c4a26d76b46c6a8dca6d2f"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
 hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true

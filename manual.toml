@@ -21,16 +21,6 @@ sha1 = "6c2d786a161f49470dad92b2edaefdac38a1e79b"
 pasta = "mods"
 
 [[mod]]
-id = "dreamwoods"
-nome = "Dreamwoods"
-classe = "B"
-lado = "both"
-arquivo = "dreamwoods-2.5-neoforge-1.21.1.jar"
-pagina = "https://www.curseforge.com/minecraft/mc-mods/dreamwoods/files/8768209"
-sha1 = "02c61a0b1468389d496a0cb89a184fc94e7dd290"
-pasta = "mods"
-
-[[mod]]
 id = "fast-async-world-save-forge-fabric"
 nome = "Fast Async World Save"
 classe = "B"

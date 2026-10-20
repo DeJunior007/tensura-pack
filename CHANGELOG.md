@@ -1,5 +1,6 @@
 # Changelog
 
+- − Dreamwoods: derrubava o servidor ao gerar árvores (mundo novo nesta versão)
 ## v0.1.3 — 2026-10-19
 
 - + Iris 1.8.14-beta.1 (shaders, só cliente) com Complementary Reimagined (padrão, já ligado) e Complementary Unbound
