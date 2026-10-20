@@ -890,6 +890,11 @@ hash = "afee8d508e5bee4073a0b328441e8948ade246e8fab109b988bd0bb2c5853175"
 metafile = true
 
 [[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
+metafile = true
+
+[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
 metafile = true

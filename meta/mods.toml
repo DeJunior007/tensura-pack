@@ -1309,3 +1309,11 @@ planilha = "Imersão / Visual"
 classe = "modrinth"
 licenca = "LicenseRef-Complementary-Agreement"
 nota = "luz colorida por voxel (muito pesado)"
+
+[the-twilight-forest]
+nome = "The Twilight Forest"
+categoria = "mundo"
+planilha = ""
+classe = "A"
+licenca = "LGPL-2.1"
+nota = "dimensão com chefes e progressão; o Twilight Treehouses gera casas nas árvores dela"

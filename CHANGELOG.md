@@ -1,5 +1,6 @@
 # Changelog
 
+- + The Twilight Forest 4.8.3345 (dimensão com chefes; o Twilight Treehouses passa a funcionar)
 ## v0.1.4 — 2026-10-20
 
 - − Dreamwoods: derrubava o servidor ao gerar árvores (mundo novo nesta versão)
