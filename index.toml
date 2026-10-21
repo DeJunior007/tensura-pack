@@ -840,6 +840,10 @@ hash = "4aac7623191397326e5b3fda3a691c3081ff8997c0f5723dbe2824552d2ec212"
 metafile = true
 
 [[files]]
+file = "mods/tensura-ptbr.jar"
+hash = "97d65661fa07464a31a690324452e86e423e02653346024c22cda5f2261e14ec"
+
+[[files]]
 file = "mods/tensura-reincarnated.pw.toml"
 hash = "d7cceedf2daebd33b7c06e954b0c50d70a74d360ea9d1e34edc804dc0dfc4a3a"
 metafile = true
