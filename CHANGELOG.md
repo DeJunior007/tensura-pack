@@ -1,5 +1,7 @@
 # Changelog
 
+## v0.1.6 — 2026-10-21
+
 - + Tradução pt-BR (tensura-ptbr): 16.520 frases de 98 mods/addons que não vinham em português (Tensura e addons, MCA, Simply Swords, Twilight Forest, Alex's Caves, Supplementaries…). Escolha Português (Brasil) em Idioma.
 
 ## v0.1.5 — 2026-10-20
